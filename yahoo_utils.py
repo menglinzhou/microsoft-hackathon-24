@@ -16,17 +16,23 @@ headers = {
 def get_article(card):
 	headline = card.find('h4','s-title').text
 	source = card.find('span','s-source').text
+	if "Yahoo News" not in source:
+		return None
 	posted = card.find('span','s-time').text.replace('.','').strip()
 	description = card.find('p','s-desc').text.strip()
 	raw_link = card.find('a').get('href')
 	unquoted_link = requests.utils.unquote(raw_link)
 	pattern = re.compile(r'RU=(.+)\/RK')
-	clear_link = re.search(pattern,unquoted_link).group(1)
+	re_search_result = re.search(pattern,unquoted_link)
+	if re_search_result:
+		clear_link = re_search_result.group(1)
+	else:
+		return None
    
 	article = (headline,source,posted,description,clear_link)
 	return article
 
-def get_the_news(search, max_num=10):
+def get_the_news(search, max_num=500):
 	#Run the main program
 	template = 'https://news.search.yahoo.com/search?p={}'
 	url = template.format(search)
@@ -43,6 +49,8 @@ def get_the_news(search, max_num=10):
 		#extract articles from page
 		for card in cards:
 			article = get_article(card)
+			if article is None:
+				continue
 			link = article[-1]
 			if not link in links:
 				links.add(link)
@@ -63,9 +71,21 @@ def get_the_news(search, max_num=10):
 			break
 	
 	# Save article data
-	df = pd.DataFrame(articles)
+	#df = pd.DataFrame(articles)
 	
 	return df
 
+topic_list = ['Politics', '2024 election', 'Health', 'Weather', 
+              'Science', 'Movies', 'Music', 'Soccer', 'Tennis',
+			  'Basketball', 'Esports', 'US', 'World', 'AI', 'China',
+			  'Fashion', 'Europe', 'Canada', 'Drinks', 'Coffee', 
+			  'Stock market', 'Cosmetic', 'Technology', 'Social',
+			  'Pet', 'Promotion', 'Travel', 'Food', 'Entertaiment',
+			  'Shopping', 'Art', 'History', 'Cooking']
 
-df_trump = get_the_news('trump')
+df = []
+for topic in topic_list:
+	print(topic)
+	df.extend(get_the_news(topic))
+
+df = pd.DataFrame(df)
