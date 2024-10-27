@@ -73,7 +73,7 @@ def get_the_news(search, max_num=500):
 	# Save article data
 	#df = pd.DataFrame(articles)
 	
-	return df
+	return articles
 
 topic_list = ['Politics', '2024 election', 'Health', 'Weather', 
               'Science', 'Movies', 'Music', 'Soccer', 'Tennis',
