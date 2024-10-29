@@ -28,7 +28,6 @@ def get_article(card):
 		clear_link = re_search_result.group(1)
 	else:
 		return None
-   
 	article = (headline,source,posted,description,clear_link)
 	return article
 
@@ -89,3 +88,5 @@ for topic in topic_list:
 	df.extend(get_the_news(topic))
 
 df = pd.DataFrame(df)
+
+df.to_csv('data/yahoo.csv', index = False)
