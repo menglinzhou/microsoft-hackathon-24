@@ -1,0 +1,759 @@
+id,adv_source_id,source_id,model,decoding,repetition_penalty,attack,domain,title,prompt,text,labels,Prediction_0,Prediction_1
+ed337d3f-b9d7-4980-b60c-a1961f73bd05,ed337d3f-b9d7-4980-b60c-a1961f73bd05,5795208a-5b5c-456d-a137-994297c76d03,gpt4,sampling,no,none,german,"Barcelona nur 2:2 in Villarreal, Real gewinnt","Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Barcelona nur 2:2 in Villarreal, Real gewinnt"".","In der spanischen Fußball-Liga Primera División hat der Rennleiter FC Barcelona nur ein Unentschieden gegen den CF Villarreal erreicht. Damit hat Barcelona trotz starker Bemühungen wichtige Punkte verloren und ist jetzt auf dem dritten Platz in der Tabelle gelandet. 
+
+Das Spiel in Villarreal endete mit einem 2:2. Barcelona hatte die Führung in der ersten Spielhälfte mit Toren von Messi und Griezmann übernommen. In der zweiten Spielhälfte kämpfte Villarreal jedoch zurück und erzielte in den letzten Minuten zwei Tore, was zu einem Unentschieden führte.
+
+Der CF Villarreal zeigte seine Heimstärke und sorgte damit für eine große Überraschung. Besonders das Umschaltspiel von Villarreal und der unermüdliche Kampfgeist der Mannschaft beeindruckten die Fans. 
+
+In Madrid wendete sich das Blatt zur Freude von Real. Die Königlichen feierten einen späten 3:2-Sieg gegen den FC Sevilla. Dieser Sieg verhalf Real Madrid, die Tabellenspitze zu behaupten.
+
+Das Unentschieden von Barcelona und der Sieg von Real Madrid brachten eine bedeutende Veränderung in der Tabelle. Real Madrid steht jetzt mit 42 Punkten an der Spitze, gefolgt von dem FC Barcelona mit 40 Punkten. 
+
+Der Kampf um die Meisterschaft ist damit weiterhin offen und die restlichen Spieltage versprechen Spannung und Nervenkitzel. Es bleibt also abzuwarten, wie sich die Dinge in den nächsten Wochen entwickeln.",1,0.0380738,0.96192616
+80722f31-44f2-4423-832e-c0e895a0ff42,80722f31-44f2-4423-832e-c0e895a0ff42,6741d578-ec4f-49e8-8981-342b3384ebf6,mpt-chat,sampling,no,none,german,Internationaler Schlag gegen Schlepper: Festnahmen auch in Wien,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Internationaler Schlag gegen Schlepper: Festnahmen auch in Wien"".","Internationaler Schlag gegen Schlepper: Festnahmen in verschiedenen Ländern einschließlich Wien
+
+Am Donnerstag wird ein internationaler Schlag gegen Schlepper und Menschenhandel ausgeschlagen. Über 100 Verdächtige wurden in verschiedenen Ländern einschließlich Österreich festgenommen.
+
+Bild: Polizeibeamte in Wien
+
+Nachrichten aus der ganzen Welt berichten am Donnerstag über eine weltweite Aktion gegen Schleppervorwürfe. Über 100 Verdächtige wurden in verschiedenen Ländern einschließlich Österreich festgenommen. Die Aktion soll vor allem Schlepper und die organisierten Kriminalitätstruppen in den Blick nehmen.
+
+Der Österreichische Innenminister Karl Nehammer beschreibt die Aktion als ""großen Erfolg"". In Österreich wurden acht Verdächtige festgenommen.
+
+Die internationale Operation soll die Überquerung von nationalen Grenzen hinter sich lassen und die Zusammenarbeit zwischen den Ländern fördern. Die Polizeibehörden in den einzelnen Ländern arbeiteten eng zusammen, um die Aufklärung zu erleichtern.
+
+Bei der Aktion wurde nach Schätzungen eines Polizeiermittlern auf Deutschlandfunk hauptsächlich auf Schlepper und Mitglieder von organisierten Kriminalitätstruppen gezielt gefasst. Die Betroffene wurden auf Grundlage von Hinweisen und einer internationalen Analyse festgenommen.
+
+Bislang werden keine genauen Zahlen zum Ergebnis der Aktion veröffentlicht. Eine öffentliche Nennung der Verdächtigen ist auch nicht geplant.",1,0.0026719663,0.99732804
+fff55ab5-6013-4999-8c98-78231a23d145,fff55ab5-6013-4999-8c98-78231a23d145,fff55ab5-6013-4999-8c98-78231a23d145,human,,,none,code,Write a function to check if the triangle is valid or not.,,"def validity_triangle(a,b,c):
+ total = a + b + c
+ if total == 180:
+    return True
+ else:
+    return False",0,0.725701,0.27429911
+52927104-0d86-4436-aa4b-119f36ee0ee2,52927104-0d86-4436-aa4b-119f36ee0ee2,20d203a7-8ef8-4f32-9fb8-c3ea54871ef1,mpt-chat,greedy,yes,none,code,Write a function to convert a given string to a tuple.,"Write just the Python code solution for the problem ""Write a function to convert a given string to a tuple."".","def str_to_tuple(input):
+    return input.split()",1,0.4442364,0.5557636
+c204c167-4519-41d7-af4c-3334530eaf66,c204c167-4519-41d7-af4c-3334530eaf66,53521f29-e57b-4fa7-8408-ef10fba600de,mpt,sampling,yes,none,german,"Claudia Zettel neue Chefredakteurin der ""Futurezone""","Es folgt ein Nachrichtenartikel mit dem Titel ""Claudia Zettel neue Chefredakteurin der ""Futurezone"""":","</p> </div><br /> <a href=""https://www.future-online2f5b1de9ac30e7fe6ecd3cdaed4db0ff974038eebebf905cc8864cf68efbb837af18eb122878255420ea8060aa0184bc3494cb9513158570ae33759669dfcd74191646caab5726cefd86adbd483239170623587772125dd87298971fb6500ba229399dc7904fa43cca92abc61104921fff5042145635983655673582482""> https : // www. future - online 2 f 5 b 1 d e 9 a c 30 E 7 F 6 ec D 3 C da ed 4 db 0 ff 97 40 38 EE be BF 90 55 cc 88 64 cf 68 ef bb 83 78 af 18 eb 12 28 74 20 75 80 15 82 25 54 22 01 84 bc 34 94 cb 95 13 14 85 70 A &amp;E 33 ; 17 06 23 58 77 72 10 51 57 26 ce fd 86 ad BD 48 32 39 71 fb 65 00 ba 29 93 99 dc 79 04 fa 43 ca 92 ab 91 61 11 05 21&lt;/ em / span ><span aria =' s u '>& lsquo;& mdash;</ i></ I>' tizimlerin yeni bir üyesi olunan Claudie zittl, futu resmi sitesinin en güzel kısmönükçünür için tamayasınır."" Future "", teknoloji alışkanlıklarınızla arkadaşlar oldukça nazranmoyorsundurusuparktandalıkta bulunsankara takım ve herkesine özgül makinedesignsuistimalardokulundaolmadanaheraldavuranlezerikliyatamaolaraknederseyemektedir.' Puanlanma Trendeler'daki çözÜmleri oluŞturarak bu hobiini elinde tutmaya devam etmeye ulaMsiyoruz.< br />< BR/>.",1,0.20312412,0.7968759
+4a910a2f-37e8-48e2-afa9-6e557244b81a,4a910a2f-37e8-48e2-afa9-6e557244b81a,e4f0e8b8-7790-42ae-a78b-6c260023dfb5,cohere-chat,greedy,no,none,czech,"Jaromír Bosák: K. O. systém je v pořádku, fotbalu prospívá","Napiš text článku, který má nadpis ""Jaromír Bosák: K. O. systém je v pořádku, fotbalu prospívá"".","Here is a possible draft of the article:
+
+""Former Czech footballer Jaromír Bosák believes that the K. O. System is in order, and that football is thriving.""
+
+This is just a draft and can be modified to fit the user's needs.",1,0.0028833214,0.9971167
+adae23ba-56c3-4080-9550-88c2e50f09bc,adae23ba-56c3-4080-9550-88c2e50f09bc,adae23ba-56c3-4080-9550-88c2e50f09bc,human,,,none,czech,„Uprchlík do plynu.“ Německá policie odhalila ve svých řadách extremistickou síť,,"EXTREMISMUS U POLICIE
+
+Svět
+
+Echo24, jik 16. září 2020
+
+V Severním Porýní-Vestfálsku úřady vyšetřují 29 policistů za šíření pravicově extremistické propagandy. Ministr vnitra Herbert Reul jim všem pozastavil výkon služby. Informoval o tom server Tagesschau.
+
+Do razie na své kolegy, kteří údajně šířili pravicově extremistickou propagandu na sociálních sítích, se zapojilo více než 200 policistů. Policisté udělali prohlídky v celkem 34 policejních stanicích a soukromých bytech. Bylo zabaveno také několik mobilních telefonů, informoval ministr Reul.
+
+V celkem pěti chatovacích skupinách bylo podle ministra rozesláno více než sto obrázkových souborů včetně fotek Adolfa Hitlera a svastiky, říšských válečných vlajek či fiktivního znázornění uprchlíka v plynové komoře v koncentračním táboře.
+
+Zapojeno do těchto konverzací mělo být celkem 29 policistů. Všichni byli suspendováni a bylo s nimi zahájeno disciplinární řízení.
+
+Nejvíce proviněných policistů působilo na policejním ředitelství v Essenu, proto tam proběhne speciální kontrola. Reul chce také jmenovat zvláštního pověřence pro pravicově extremistické tendence v rámci zemské policie.
+
+Ministr Reul podle svých slov udělá vše, co je v jeho silách, aby dotčení opustili řady policie. „Pravicoví extremisté a neonacisté nemají v našem policejním sboru místo,"" řekl. Dlouho doufal, že takové incidenty jsou ojedinělé případy. „Ale dnes už nemohu mluvit o jednotlivých případech,“ dodal",0,0.043378916,0.95662105
+be320c29-2f6b-4ae2-bb08-b742bcdaecac,be320c29-2f6b-4ae2-bb08-b742bcdaecac,73fdafae-e51c-4149-aec3-d583d718675f,cohere,sampling,no,none,german,Nationalbank fördert 35 Forschungsprojekte,"Es folgt ein Nachrichtenartikel mit dem Titel ""Nationalbank fördert 35 Forschungsprojekte"":"," Nationalbank fördert 35 Forschungsprojekte
+
+Das Nationalbank ist der Mittelstand im Visier der Zentralbank. Darüber hinaus will der Einzelhandelskonzern eine neue Währungsregulierungsvorschussestruktur und mehr Welthandelssteuer schaffen. Doch dieser Schritt wird von Politikern, Experten und anderen Sektoren stark dividiert.
+
+Das Nationalbank will mehr als 30 Millionen Euro an 35 Forschungsprojekten der Wissenschaft der Welt verleihen. Das Informationsmaterial der Behörden zeigt, dass sich die Forschungsprojekte auf neue Wege der Währungsentwicklung und der Wirtschaftsordnung konzentrieren. Darüber hinaus lässt sich an, dass die Auslieferung der Gelder auf die Forschung die Entwicklung neuer Währungsmethoden beflügelt – also insbesondere Entwicklungsprojekte der Kryptowährungen.
+
+Im Hinblick auf die Entwicklung neuer Währungen sollte man sich darüber klar sein, dass der Nationalbank in diesem Bereich aktiv ist, sagt Magnus Brunner, Finanzwissenschaftler und Professor der Friedrich-Alexander-Universität Erlangen-Nürnberg. „Das Nationalbank ist eine der namhafteren Institutionen, die sich auf diesem Gebiet auskennen.“ Das Informationsmaterial ist jedoch nicht ausreichend, um entstandene Probleme zu lösen.
+
+Magnus Brunner ist keinesfalls darüber überzeugt, dass sich die Zentralbank um die Führung in diesem Bereich bemühen wird. „Das Nationalbank ist eine sehr aktive Institution, die sich auf vieles einlädt. Aber es ist ein großes Wachstumsvolumen, um sich auf die Führung zu behaupten“, sagt der Finanzwissenschaftler. 
+
+Mehr als 190",1,0.0029575669,0.9970425
+67dce832-32aa-4a3b-bf56-6cd4eacde91f,67dce832-32aa-4a3b-bf56-6cd4eacde91f,67dce832-32aa-4a3b-bf56-6cd4eacde91f,human,,,none,czech,Neuvěřitelný úspěch! Kosmická loď Crew Dragon je zpět na Zemi,,"Aktualizováno 8.3. 2019 14:58Přímý přenosvstup do atmosféryNeuvěřitelný úspěch! Kosmická loď Crew Dragon je zpět na ZemiZdroj:Twitter, SpaceXTéma: zahraničí
+Mise, při které se kosmická loď Crew Dragon poprvé podívala na oběžnou dráhu, skončila úspěchem. V pátek ráno se kosmická loď odpojila od Mezinárodní vesmírné stanice a začala se vracet zpátky na Zemi. Vše proběhlo bez problémů. Po napjatých momentech, kdy loď ztrácí spojení se Zemí při vstupu do atmosféry, se podařilo rozevřít čtyři hlavní padáky, ve 14:45 pak loď dopadla do oceánu.
+Crew Dragon se od Mezinárodní vesmírné stanice (ISS) odpojil v pátek v 8:32 a vydal se zpět na Zemi. Brzdné manévry byly úspěšné a loď se vydala na cestu do naší atmosféry.
+Vesmírné plavidlo podle plánu ve 14:45 přistálo na padácích v Atlantiku poblíž Floridy. Jde o první úspěšný test Crew Dragonu. Vstup do atmosféry je velmi náročnou fází celého letu, vše ale dopadlo na jedničku. Američané by po tomto úspěchu mohli do vesmíru opět posílat lidskou posádku. O to se do současnosti staraly Sojuzy. Otevírá se také zcela nová doba pro komerční lety do vesmíru.  Raketa Falcon 9 vynesla kosmickou loď Crew Dragon 2. března do vesmíru, stroj se po dlouhém letu automaticky připojil k ISS. Doposud musely lodě společnosti SpaceX kosmonauti zachytávat robotickou paží.  Successful splashdown of the #CrewDragon right on time at 8:45 a.m. ET. pic.twitter.com/0qHhHzD4Js— NASA Commercial Crew (@Commercial_Crew) 8. bezna 2019Dopad lodi Crew Dragon do oceánu. S sebou na oběžnou dráhu vynesla loď náklad, experimenty a také například figurínu Rypleová se senzory, které zjišťují, jak působí let v modulu na lidskou posádku. Podívejte se na odpojení lodi Crew Dragon od ISS:Beautiful view of the @SpaceX #CrewDragon as it successfully undocked from the International Space Station pic.twitter.com/ycnkagpJbx— Intl. Space Station (@Space_Station) March 8, 2019
+klma TN.cz",0,0.063162796,0.9368372
+0e74e35b-bd1d-4373-b71f-b83abbf77293,0e74e35b-bd1d-4373-b71f-b83abbf77293,0e74e35b-bd1d-4373-b71f-b83abbf77293,human,,,none,czech,"ON-LINE: Volby do Senátu ovládla ODS, pro hnutí ANO dopadly podle Babiše mizerně",,"Hledání partnerů pro budoucí radniční koalici v Hradci Králové je v ODS očividně velice vážná věc. Občanští demokraté mají nabídku do dvou koalic a de facto záleží jen na jejich rozhodnutí. Dnešní oblastní rada měla už konečně rozhodnout, jestli se přikloní na stranu vítězného ANO (od kterého má nabídku primátorského křesla), nebo druhého Hradeckého demokratického klubu. Občanští demokraté jednali už třetí den v kuse, avšak ani tříhodinové sobotní setkání nepřineslo kýžené rozhodnutí.
+
+„Musíme si s ostatními vyjasnit programové priority. V pondělí se sejdeme s HDK a Piráty a chceme hovořit o územním plánování, které je pro všechny velmi důležité,“ uvedl hlavní vyjednavač ODS a krajský radní Václav Řehoř. V úterý se pak sejdou s druhou stranou – ANO a Změnou pro Hradec se zelenými. Se závěry všech schůzek musí vyjednavači ODS následně seznámit oblastní radu. Nové vlády se hradečtí voliči proto v nejbližších dnech určitě nedočkají.",0,0.023018127,0.97698194
+497feb06-b64e-4fc5-a1e5-46688632add1,497feb06-b64e-4fc5-a1e5-46688632add1,497feb06-b64e-4fc5-a1e5-46688632add1,human,,,none,code,Write a function to insert a given string at the beginning of all items in a list.,,"def add_string(list,string):
+ add_string=[string.format(i) for i in  list]
+ return add_string",0,0.568234,0.431766
+8d96c288-1314-4d4f-b1b3-17e77c67a966,8d96c288-1314-4d4f-b1b3-17e77c67a966,8d96c288-1314-4d4f-b1b3-17e77c67a966,human,,,none,czech,"ENERGETICKÉ NÁPOJE: 7 důvodů, proč si na ně dávat pozor! Dětem je zakažte!",,"Publikováno 20. 11. 2013pít či nepítENERGETICKÉ NÁPOJE: 7 důvodů, proč si na ně dávat pozor! Dětem je zakažte!Zdroj:oficiální zdrojPatříte mezi milovníky energetických nápojů? Necháváte vaše děti, aby je také pily? Tak tohle rozhodně musíte vědět!
+Než si zase půjdete koupit energeťák, přečtěte si, co všechno dělá s vaším tělem. Častá konzumace přináší zdravotní problémy a může být i životu nebezpečná! To hlavně platí u dospívajících a u dětí, u kterých začíná být tento nápoj čím dál více oblíbenější.
+Energetické nápoje vyhledává 10 - 15% dospívajících. Častá konzumace může vést i k závislosti a nápoj se tak může tak lehce stává drogou, bez které si už někteří svoje fungování nedovedou představit. Můžou poškodit srdce, u dospívajících dokonce i zpomalit vývoj mozku.Co jste o energetických nápojích možná nevěděli:1. Sice je najdete mezi nealkoholickými nápoji, ale do této kategorie rozhodně nepatří. Obsahují vysoké množství kofeinu, jehož konzumace může přivádět těžké zdravotní problémy. Nechali byste dětem vypít několik šálků kávy za den? 2. Dehydratují, a proto se nedoporučují pít ani po fyzické zátěži, kdy potřebujete doplnit tekutiny. Zvolte raději čistou vodu nebo speciální sportovní nápoje k rehydrataci. Energetické nápoje se často zaměňují právě za ty sportovní. Na to je potřeba si při konzumaci také dát pozor - jejich složení je naprosto rozdílné.3. Jak uvádí server fitnessviking.com,  nejsou klasifikovány jako potraviny, ale jako doplňky. Tudíž nedodávají tělu žádné potřebné živiny.4. Neposkytují energii, tu správnou přijímá naše tělo z jídla. Lepší je si pochutnat na banánu, sendviči a sklence vody, což tělu poskytne opravdovou energii a hydrataci. Energie z nápojů je vyvolávaná uměle pomocí taurinu. Jde pouze o psychickou a fyzickou stimulaci.5. Ovlivňují účinnost léků. Týká se to zejména prášků na srdeční problémy, astma, alergii nebo dokonce i antikoncepce.6. Když už je budete chtít dávat svým dětem, podívejte se na nutriční hodnoty. Pokud nejsou uvedeny, zvažte, jestli je tento chemický nápoj pro vaše děti vůbec vhodný.7. Jeden nápoj obsahuje tolik cukru, že po jeho konzumaci překročíte denní povolenou dávku až 6x. To může vést k obezitě, nebo dentálním problémům.   InfoNevydávejte z rodinného rozpočtu více, než musíte. Víte co a o kolik přeplácíte?Chci přepočítat  ČTĚTE TAKÉ:Energy drinky: víte, co pijete?Pozor! Energy drinky mohou skrývat smrtTest jogurtů pro děti: V jednom malém kelímku je až šest kostek cukruVelký test dětských pitíček: v lahvičce je až 20 kostek cukru!
+mis TN.cz",0,0.06071229,0.9392878
+7a501b87-f1a2-4dd2-b4ab-7db8f83de517,7a501b87-f1a2-4dd2-b4ab-7db8f83de517,7a501b87-f1a2-4dd2-b4ab-7db8f83de517,human,,,none,czech,Prodejci ojetých aut vítají milionové pokuty za stáčení tachometrů,,"Publikováno 17. 11. 2011Prodejci ojetých aut vítají milionové pokuty za stáčení tachometrůZdroj:Oficiální zdrojTvrdý postih čeká pravděpodobně každého, kdo od poloviny příštího roku upraví počty najetých kilometrů u auta nebo motocyklu. Ministerstvem dopravy připravovanou novelu, která počítá s pokutou ve výši pět až deset milionů korun, vítají zejména prodejci ojetých automobilů.
+""Velmi nás těší, vítáme a podporujeme současnou aktivitu ministerstva dopravy, protože přetáčení tachometrů se stalo zejména v posledních letech výnosným byznysem pro stovky ""podnikavců"", kteří touto aktivitou znepříjemňují život nejen seriózním autobazarům, ale zejména kupcům ojetých vozidel,"" uvedl Martin Doležal, mluvčí autobazaru Auto ESA.
+ČTĚTE TAKÉ:Prodeje vozů MPV v Česku se zvýšily Právě Auto ESA stojí za peticí proti manipulacím s tachometry u ojetých vozidel, kterou před rokem obdržel tehdejší ministr dopravy Vít Bárta (VV). Své podpisy pod text připojili zejména zákazníci autobazaru.O dvanáct měsíců později se zdá, že nemusí být snaha prodejců ojetin marná. Ministerstvo dopravy chystá novelu silničního zákona, podle které budou hrozit za přetáčení tachometrů vysoké pokuty. Neautorizované přetočení tachometru by se totiž mělo stát přestupkem, za který bude možné udělit u fyzických osob až padesátitisícovou pokutu, právnickým osobám a podnikatelům by hrozila až pětimilionová sankce.Dalším opatřením, které by mělo zabránit nedovolené manipulaci s tachometrem, je zaznamenávání stavu najetých kilometrů do speciální karty, údaje o stavu tachometru by měly být také přístupné na uzavřeném informačním okruhu pro autorizované osoby.Mimo zákon se tak dostanou i všechny firmy, které nabízí úpravu stavu najetých kilometrů. Novela silničního zákona by měla začít platit v polovině roku 2012.
+tn.cz / Mediafax",0,0.08657013,0.91342986
+824718ec-a22a-42bd-bf74-200afe05bcfd,824718ec-a22a-42bd-bf74-200afe05bcfd,824718ec-a22a-42bd-bf74-200afe05bcfd,human,,,none,code,Write a function to extract the sum of alternate chains of tuples.,,"def sum_of_alternates(test_tuple):
+  sum1 = 0
+  sum2 = 0
+  for idx, ele in enumerate(test_tuple):
+    if idx % 2:
+      sum1 += ele
+    else:
+      sum2 += ele
+  return ((sum1),(sum2)) ",0,0.14100602,0.858994
+27f7024f-3da7-4fcd-9bf0-e070576189f3,27f7024f-3da7-4fcd-9bf0-e070576189f3,454ad175-c091-443a-b0c8-ecc95de4f8a5,gpt3,sampling,no,none,german,"4 Zoll, 420 Euro: Chinesischer Mobilfunker verrät iPhone 7c","Es folgt ein Nachrichtenartikel mit dem Titel ""4 Zoll, 420 Euro: Chinesischer Mobilfunker verrät iPhone 7c"":","
+
+Der chinesische Mobilfunker China Mobile hat die Spezifikationen des neuen iPhone 7c enthüllt, das zusammen mit dem iPhone 7 und dem iPhone 7 Plus am 7. September vorgestellt wird. Wie das Online-Magazin GSM Arena berichtet, soll das iPhone 7c ein 4 Zoll großes Display haben und rund 420 Euro kosten.
+
+Das iPhone 7c wird laut China Mobile ein Aluminium-Unibody-Gehäuse haben und wie das iPhone 7 und iPhone 7 Plus auch über einen A10-Prozessor, eine 12-Megapixel-Hauptkamera und eine 7-Megapixel-Frontkamera verfügen. Allerdings soll das iPhone 7c kein 3D Touch Display und kein Dual-Kamera-Setup wie beim iPhone 7 Plus besitzen.",1,0.014550613,0.9854494
+453318ea-9f4a-4bb5-b633-4b2f95211dc9,453318ea-9f4a-4bb5-b633-4b2f95211dc9,b8fbb473-20d1-4182-bc45-43aaaf2bdfa3,mpt,sampling,yes,none,german,Dutzende Palästinenser bei Zusammenstößen verletzt,"Es folgt ein Nachrichtenartikel mit dem Titel ""Dutzende Palästinenser bei Zusammenstößen verletzt"":","""Unzählige Wohnstädte und Dörfer in der Provinz Hebron wurden seit Sonntagnacht durch das israelische Streifenheer überfallen, Hundert Einwohner kamen schwer oder leicht verwundet zurück. [...] Im Jemenita-Camp werden dort die Unruhen wüten gegen den jordanischen Militärposten."" Dies ist eine Anmerkung zusätzlich zu meiner vorherigen Melodie (siehe unbedingtes Update): Kader Asad hat es sich erlaubterweise sofort eingeräumelt: Das sei nicht Israel gewesenen! Also erscheint hier im Rahmen einer Darbietgabe von al-'Alam Al Islamiyyah - welcher offizielle Telepolitischkeit angegliedert war -, daß sogar diese Behauptungen bezüglich eines militärhaften Überfalls auf deutsche Staatssoziologie herabgespielts wird!!! Hat man mir einen Narr vertrieb? Oder was?! Und damals ließ ich keinen Tag vergechen ohne am Ausländerdienst um Hilfe für mich SORGENDEN Bruder Klaus Rainer Gawlik aus all diesem BÖSEWICHIGKEITERREICHS bitten... :-( Oh Mann!! Ihr merkt doppelsinnig wie sehr i'm trauriger Weisen tief Verstand gebraucht haben müssen wenn auch nur vier Monate lang.... :-) Mit Freude freue Euch ubermaße davon nochmal horen können dass wir bald wieder nebeneinandern sein werde!!!!! Viele Umarmn uf uns beide bis dann.. Deine Familie<3...Mona :-)... Punk rock and rap have something to say about Palestine"". Der Artikluftrand konnen sieht nachdem vielleicht geradezu lacherich scheisterndas ganze Schreiessen auffallend daran bestand obgleich nirggends speiflt wurde irgwen selbstverstandliches Zeichen zeige als stell",1,0.044010956,0.95598906
+86bdee52-267b-48a3-8b21-a33a3de590c5,86bdee52-267b-48a3-8b21-a33a3de590c5,da8434c0-d603-462e-8fd2-da86075e2396,cohere-chat,sampling,no,none,german,Ungarns Schulstaatssekretärin muss gehen,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Ungarns Schulstaatssekretärin muss gehen"".","Einzigartig in Ungarn: die Schulstaatssekretärin musste fliehen – Nachrichtenartikel
+
+Wie eine Tragödie kann sich eine Hochzeitsfeier ergeben. In Ungarn ist der 13. Juli ein ganzes Country ein Fest für seine bürgerliche Verehrung. In Budapest wollte die Schulstatssekretärin Sylvia Lorincz ihre Hochzeitsfeier einrichten – und verunsicherte schließlich nicht nur ihre eigene Zukunft, sondern auch den geliebten Staat. Lorincs ist die Tochter eines richtungsweisenden Magyar Nachrichtenjournalists und der Tochter von Juden. Sie hatte es sich zu unserem Freund und Unterstützer Juden und der zerstörten von ihm gehten Information äußerlich gegeben, als sie anfing, Ungarn zu erobern. Sie wollte, dass sich die Einrichtungen der Staatsvertretung öffnen. In einem Raum der Hauptstadt, in einem Gebäude der öffentlichen Verwaltung und unter der Aufsicht der Sicherheitspolizei, wollte sie den Austausch mit den öffentlichen Vertretern der Zentralregierung veranlassen. Sie kam nicht an die Tür. In ihrem Zeugnis, das als Notarischer Brief an die Öffentlichkeit veröffentlicht wurde, schreibt sie, dass sich die Polizei an ihren Auftritt entgegenließen und sie nicht hineinmöglich gemacht habe, die öffentlichen Vertreter der Zentralregierung zu treffen. Sie fällt also mit einer Demontage des Regierungssystems Ungarns in die Gefängnis. 
+
+Fast täglich fordern Sie jetzt Anklage gegen die Regierung auf, und ihr Anwalt und sie sind sich sicher, dass die Ungarns Regierung ein Demok",1,0.0030960494,0.99690396
+366d6e8d-d29d-4d8f-ba21-177ad3272cbb,366d6e8d-d29d-4d8f-ba21-177ad3272cbb,366d6e8d-d29d-4d8f-ba21-177ad3272cbb,human,,,none,czech,Proti násilí na ženách se dělá víc v Istanbulu než v Praze – A2larm,,"Česká republika je jednou z mála zemí, která nepodepsala Istanbulskou úmluvu. Ne, není to úmluva o přesídlení statisíců Syřanů z Turecka do České republiky, týká se ochrany žen před genderově podmíněným násilím. Státy, které ji přijmou, se zavazují k zajištění minimální úrovně prevence násilí na ženách, ochraně obětí a zaručují trestní stíhání pachatelů. Úmluvu, která vstoupila v platnost v srpnu 2014, přijala Rada Evropy a z členských států EU už ji nepodepsalo kromě České republiky jen Lotyšsko, Bulharsko a Irsko.
+
+Sexuální násilí a násilí na ženách je integrální součástí sexisticky nastavené společnosti, ve které je sexuální pozornost věnovaná mužem ženě vnímána jako jeden z hlavních úspěchů, o nějž by ženy měly usilovat.
+
+Úmluva definuje násilí na ženách, jež zahrnuje takové jevy jako znásilnění, násilí v partnerských vztazích, ale třeba i stalking, nedobrovolné sterilizace či nucené potraty a ženskou obřízku, vynucená manželství a další, dává je do souvislosti s genderovými nerovnostmi a diskriminací žen a zavazuje signatářské státy například ke zřizování center odborné pomoci nebo vzdělávání státních úředníků, kteří s oběťmi a pachateli všech těchto podob násilí přicházejí do styku.
+
+Myslet na práva žen
+
+K antiislámské rétorice patří i starost o práva žen, jejichž porušování má být – ve srovnání s evropskou kulturou – s islámem pevně spjato. Je tak dost paradoxní, že úmluva podepsaná v převážně muslimské zemi, jakou je Turecko, se již několik let povaluje na stole české vlády, vlády státu, který by se rád počítal k společenství civilizované Evropy. Podobně se česká politická reprezentace staví k přijetí kvót. České vlády se domnívají, že na to, aby jsme se chovali „správně“, nepotřebujeme žádné úmluvy, zákony a mezinárodní závazky. Můžeme přece přijmout uprchlíky i bez kvót, k ženám se chovat slušně a oběti násilí ochraňovat i bez mezinárodních dohod. Snad by nás někdo nechtěl obviňovat z misogynie, kterou oplývá například kritika Istanbulské úmluvy publikovaná na serveru A Voice For Men. Zde se praví, že opatření Rady Evropy je vítězstvím genderových ideologů, které prosazuje marxistické ideály a sděluje světu: „Na mužích nezáleží, ti ať klidně trpí v masakrech, jako byl ten u Srebrenice.“ Tak vyhroceně šovinisticky to česká politická reprezentace jistě nevidí. To, že jsme úmluvu nepodepsali, není znakem šovinismu a nezájmu o genderovou rovnost, ale výrazem naší suverenity.
+
+Jak je na tom česká veřejnost ukázal ve středu zveřejněný průzkum Amnesty International. Z jeho výsledků vyplývá, že v Česku stále převládá představa, že znásilnění je otázkou cti, kterou si musí ubránit především žena sama. Sice nenařizujeme, jak se mají chovat, ale pokud se nechovají tak, jak mají, ať se pak nediví, že byly znásilněny. Ochrana cti vyžaduje od ženy nechodit vyzývavě oblečená, nepít alkohol a nepotulovat se v noci po ulicích. Drtivá většina (80 procent) sexuálního násilí se přitom odehrává mezi lidmi, kteří se znají – v rodině, v práci, mezi spolužáky… Násilný deviant číhající ve křoví a provokující žena jsou mýtem, který chrání veřejnost před přijetím faktu, že se sexuální násilí týká i jich. A chrání především pachatele – ten slušný muž, táta od rodiny a oblíbený kolega a bodrý šéf by přece nikdy…
+
+Obtěžování je pro ženy radost
+
+V srpnu proběhl v USA soud s Owenem Labriem. Devatenáctiletý student prestižní střední školy, vzhledem připomínající Harryho Pottera, byl obviněn ze znásilnění patnáctileté dívky. Milý a nadaný kluk přijatý ke studiu teologie na Harvardu pozval dívku na rande, objímali se, líbali, ona už nechtěla víc, ale on pokračoval. Obhájce obviněného hájil mimo jiné tím, že pro mladší studentku v prváku je přece pozornost staršího a úspěšného studenta ctí, které by si měla vážit. Podobné argumenty slýcháme i v Česku – to, co feministky nazývají sexuálním obtěžováním, je prezentováno jako skládání poklony atraktivním ženám. Důvod k radosti a tetelení, nikoli k soudním procesům.
+
+Sexuální násilí a násilí na ženách je integrální součástí sexisticky nastavené společnosti, ve které je sexuální pozornost věnovaná mužem ženě vnímána jako jeden z hlavních úspěchů, o nějž by ženy měly usilovat. Mnohem více se mluví o tom, jak by se měly ženy preventivně chránit, než o tom, že by to muži neměli dělat a instituce by jim v tom neměly napomáhat. Není asi překvapivé, že těmi, kdo nejčastěji věří mýtům o znásilnění, jsou právě muži ve věku 18–34 let, kteří jsou podle statistik také nejčastějšími pachateli těchto činů. Jak vidno, ochrana žen před násilím u nás není ničím samozřejmým a mezinárodní závazek by mohl přispět k zlepšení situace. Snad se k Istanbulu také jednou připojíme.
+
+Autorka je socioložka. Vyučuje genderová studia na katedře sociologie FSS MU.",0,0.45329997,0.54670006
+400fa816-0024-498f-b6e4-ec34205958d5,400fa816-0024-498f-b6e4-ec34205958d5,400fa816-0024-498f-b6e4-ec34205958d5,human,,,none,german,Migranten kandidieren in Wien: So viel Aufmerksamkeit,,"Außenminister Kurz ist an den Integrationsagenden offensichtlich gescheitertSebastian Kurz hätte nicht näher auf die Frage nach der Migrantenliste  eingehen müssen. Der Außenminister sagte im Interview mit dem STANDARD  aber sehr deutlich, was er vom Antritt einer Liste mit Kandidaten  hauptsächlich türkischer Herkunft hält: nämlich nicht allzu viel. Die  Kandidatur sei abzulehnen, weil sie das ""Gegenteil von Integration sei"".  Mit dieser Aussage gibt Kurz der Liste rund um den Simmeringer Arzt  Turgay Taskiran mehr Aufmerksamkeit, als sich dieser erträumen könnte.
+Doch warum beschäftigt die etablierten Parteien die Kandidatur so sehr?  Sie sind von der Ankündigung schlicht auf dem falschen Fuß erwischt  worden. Wenn Kurz nun sagt, dass es nicht integrationsfördernd sei, wenn  sich Menschen mit Migrationshintergrund zusammentun, dann muss er sich  fragen, was er bisher falsch gemacht hat. Kurz ist auch für die  Integrationsagenden zuständig. Offensichtlich ist er damit gescheitert,  den Migranten das Gefühl zu geben, politisch eingebunden zu sein oder  zumindest gehört zu werden.
+Insofern hat Spitzenkandidat Taskiran schon recht, wenn er darauf  hinweist, dass Migranten in der Politik bisher fehlen. SPÖ und ÖVP  stellen im Nationalrat jeweils nur eine Person mit nichtösterreichischen  Wurzeln.
+Mit einem großen Erfolg der Migrantenliste bei der Wien-Wahl ist dennoch  nicht zu rechnen. Vor allem in bürgerlichen Bezirken tut sich die Liste  schwer, überhaupt genügend Unterstützungserklärungen zu erhalten. (Rosa Winkler-Hermaden, 4.8.2015) ",0,0.45733383,0.54266614
+d17acf5c-1bc9-4ad5-b95f-c84a035b2665,d17acf5c-1bc9-4ad5-b95f-c84a035b2665,d17acf5c-1bc9-4ad5-b95f-c84a035b2665,human,,,none,czech,USA: Čtyřnásobná vražda. Mezi oběťmi jsou i dvě děti,,"Úřady uvedly, že z činu obvinily nezletilou osobu (ilustrační foto).
+
+Zdroj: Profimedia.cz Zavřít Úřady uvedly, že z činu obvinily nezletilou osobu (ilustrační foto).
+
+Zdroj: Profimedia.cz
+
+Muž, který šel v neděli dopoledne navštívit pětičlennou rodinu, spatřil v domě v Západní Virginii na jihu USA příslušníky své rodiny mrtvé. Přivolaná policie pak uvnitř domu nalezla mrtvá těla dvou dospělých a dvou chlapců ve věku dvanácti a tří let. Posledního člena rodiny našli kriminalisté nedaleko od místa činu. Právě tento šestnáctiletý mladík je nyní hlavním podezřelým.
+
+reklama
+
+Americká média tvrdí, že oběti masakru zemřely následkem střelby. Úřady uvedly, že z činu obvinily nezletilou osobu.
+
+Muž, který v neděli zločin ohlásil, byl příbuzný zavražděných. Rodinu navštívil, protože se mu její členové několik dnů neozývali. Když do domu vstupoval, dveře byly podle všeho odemčené. Na místě našel tři mrtvé. Potom, co objekt prohledala policie, nalezla i čtvrtou oběť.
+
+Pachatel může být člen rodiny
+
+Kriminalisté nakonec našli nedaleko místa činu pátého člena rodiny, šestnáctiletého chlapce, který byl fyzicky v pořádku.
+
+Totožnost zavražděných prozatím není známa. Policejní šerif Mike Rutherford však slíbil, že jejich identitu by se veřejnost měla dozvědět během pondělí. Celý případ je o to citlivější z důvodu, že mezi podezřelé patří nezletilý chlapec, který je příbuzným obětí.",0,0.0120471995,0.98795277
+0e23bbdd-a96d-46ff-b3dd-0db30f2347c9,0e23bbdd-a96d-46ff-b3dd-0db30f2347c9,0e23bbdd-a96d-46ff-b3dd-0db30f2347c9,human,,,none,code,Write a function to find the summation of tuple elements in the given tuple list.,,"def sum_elements(test_tup):
+  res = sum(list(test_tup))
+  return (res) ",0,0.13367723,0.8663228
+37cf9298-93eb-4cde-82a1-795c782957ba,37cf9298-93eb-4cde-82a1-795c782957ba,37cf9298-93eb-4cde-82a1-795c782957ba,human,,,none,czech,BLOG: Některá tajemství jsou jen pro psí uši,,"Není věrnějšího přítele, než je pes.
+
+Zdroj: Kateřina Hadrabová Zavřít Není věrnějšího přítele, než je pes.
+
+Zdroj: Kateřina Hadrabová
+
+Můj pes je se mnou déle než můj přítel. Je se mnou déle, než byt, kde nyní bydlíme. Pamatuje mé bývalé zaměstnání, pamatuje život v Německu i práci v Rakousku. Trávím s ním mnohem víc času, než s mými rodiči i nejlepší kamarádkou. A říkám mu toho víc, než všem zmíněným dohromady. Pejskaři ví, že některá tajemství jsou jen pro psí uši ;-)
+
+reklama
+
+Můj pes je se mnou déle než můj přítel. Je se mnou déle, než byt, kde nyní bydlíme. Pamatuje mé bývalé zaměstnání, pamatuje život v Německu i práci v Rakousku. Trávím s ním mnohem víc času, než s mými rodiči i nejlepší kamarádkou. A říkám mu toho víc, než všem zmíněným dohromady. Pejskaři ví, že některá tajemství jsou jen pro psí uši ;-)
+
+Takové ty obvyklé články o výčtech pozitiv života se psem vám toho řeknou spoustu. Že jsou majitelé psů zdravější, protože chodí na pravidelné procházky. Že mají menší riziko infarktů. Nebo že mají lepší kvalitu spánku. Možná už vám neřeknou, že pejskaři mívají výkonnější vysavač, častěji perou nebo už nevědí, co to je, zvedat jídlo ze země. Často opomíjeným, ale strašně důležitým pozitivem je ale jedna věc: psi si vyslechnou všechna vaše tajemství. A nikomu je neprozradí.
+
+Obzvlášť pozornými a chápavými posluchači tajemství jsou pak psi adoptovaní. Jsou to takoví ti kamarádi, co už si sami zažili nějaký ten rozchod, vyhazov z práce nebo ošklivou hádku s matkou. O životě už vědí svoje, takže si vás umí vyslechnout s hlubokým porozuměním a zároveň jistotou životem protřelého přítele, který ví, že jakmile nejde o život, nejde o nic. A že i když někdy o život jde, i to se dá přežít. Však by sám mohl vyprávět.
+
+Když nad tím tak přemýšlím, Držka toho o mojí minulosti ví mnohem víc, než já o té jeho. Víme ale, že minulost není důležitá. Důležité je, že jsme se nakonec našli a že je mi už pět let nejvěrnějším posluchačem a parťákem na společné mlčení. Není na světě lepší vrby, než adoptovaného psa. Zkuste to, uvidíte ;-)",0,0.028898766,0.97110116
+55cb2134-ffc3-41ee-aa7c-caa93e1cd42f,55cb2134-ffc3-41ee-aa7c-caa93e1cd42f,6f17d5c2-d314-4792-b0f1-a756a4e21f29,mpt,sampling,yes,none,code,Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm.,"The following is the full text of a Python code solution to the exercise ""Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm."" from stackoverflow.com:","""""""Merge all given iterables in ascending order and return an array containing first items (excluding duplicates) for each list.""""""
+
+    merge_array = []
+
+
+	def getItem():
+		
+	
+	
+        allLists=[input(""Enter elements on different lines:""),]
+	
+
+	       for x, lst2x  in enumerate(lst1):
+		           newL=[]
+			   zl=-9999999
+
+		               firstValueForListToAddOnNewArrayByPositionN=max([y[0]+10000*positionOfInputNumberThatIsFromSecondAndOthers + 99 #big number as value because we will need only position
+				                                          if y==tuple () else 
+					                      min ([int(((a+b)/99)+c/30)-100
+							            +(7*((e-d)*10**(3)))/(6-(g%500))) 
+
+						 if e>=f
+						     else b
+								 )
+
+						 ))
+
+			                   #print (""this"", newB, ""- ""+ str((i - 1)),"" this one "", max ((j*(posicionParaColocarUnoInicioEsCero)+((-20)*(4)-(8)))). """")
+
+
+
+			                     secondElementWithMismoValorQueElPrimerDeLosPosicionesEstaticasAsignadasComandosJVacios+=1000 * \n i      \
+									 elementX          
+	 
+
+
+
+
+
+
+
+                 while z < len (_arrAuxQueueTmpArraysCopyFinalResultatOrdenadaConDuplicadosQuitarDespuesPorqueSoloSeReclutanSimples()) : 
+         					 tempVar=(len(_arregloFiltroAdjunto)).end()--
+ 				                       del self._queueTempMemoryDataObj['temp']: 
+ 
+ 
+                return data;",1,0.9688436,0.031156417
+150e5432-0b0a-4e4f-8a44-9f6037bbf393,150e5432-0b0a-4e4f-8a44-9f6037bbf393,a778103e-46e4-433d-bc9f-9c95278aad1a,mpt-chat,sampling,no,none,czech,Proč nemohu volit Karla Schwarzenberga,"Napiš text článku, který má nadpis ""Proč nemohu volit Karla Schwarzenberga"".","Můj text bude mít jako nadpis ""Proč nemohu volit Karla Schwarzenberga"" a bude mít následující obsah:
+
+V Česku lze volit jen ty, kteří jsou zapiseni v elektronickém sezname voleb, který spravuje Český statistický úřad. Kandidáti mohou přihlásit svou kandidaturu jen v případě, že se jim úspěšně doplní všechny požadavky na vystavení seznamu voleb. 
+
+Karla Schwarzenberga by byl možné vyzvat k volbě v Česku, pokud by se o něj důkladněji poradil s Českým statistickým úřadem a pokud by splnil všechny požadavky na vystavení seznamu voleb. Řeknu vám případně i proč by byl zajímavý kandidát na volbu představený ministrem ČLR. Namísto psaní textu o tom, proč nemůžu volit Karla Schwarzenberga, bych ale měla psát text o tom, proč by měl být volen Karla Schwarzenberga.
+
+Budu rád, pokud mi sdělíte svůj názor na téma!",1,0.4819434,0.51805663
+e4ccbff6-2980-4967-8abc-32cc17df00dd,e4ccbff6-2980-4967-8abc-32cc17df00dd,60700bf4-c5a0-4ddd-af7f-b810d170a3cc,mpt-chat,greedy,yes,none,german,Astronaut steuerte Roboter in den Niederlanden vom Orbit aus,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Astronaut steuerte Roboter in den Niederlanden vom Orbit aus"".","Amsterdam, 10. März 2023 - Eine der beiden Astronauten auf der Internationalen Raumstation (ISS) hat gestern Abend von ihrem Zuhause im Weltall aus ein Team von Robotern in den Niederlanden gesteuert, um eine wichtige Mission zu erfüllen. Die Experimente sollten das Potential einer neuen Art von robotischen Technologien für die Erforschung des Ozeans und andere Gewässer untersuchen. 
+
+Die ISS befand sich zur Zeit über Sibirien, als Astronautin Dr. Maria Hernandez verbindete sie per Videochat mit einem Team an Wissenschaftlern am NIOZ-Institut für Marine Umweltwissenschaften in Yerseke, Nordwestlich van Amsterdam. Mit Hilfe eines Teleskops konnten die Forscher das Feedback live sehen, während die Roboter Daten sammelten zum Verhalten verschiedener Fischearten unter Waterbergen. 
+
+""Es war fantastisch, diese technologiegestützte Kooperation zwischen uns auf der Station und unseren Freunden hier auf Erd to see"", sagte Dr. Hernandez nach Abschluss des Experiments. ""Wir sind stolz darauf, dass wir dabei helfen können sollen, neue Wege zu finden, wie wir unser Planeten besser verstehen."" 
+
+Dieses Projekt ist Teil einer Reihe experimenteller Missions, bei denen internationale Partner mit europäischer Unterstützung gemeinsam arbeiten, um innovative Lösungen für globale Herausforderungen zu entwickeln. Das EU/ESA CCI Programme for Earth Observation from Space wird bis Ende diesen Jahres weiterentwickelt werden, um noch mehr koordinierte Maßnahmen gegen Klimawandel und anderen Bedrohungen zu ergreifen.",1,0.98066896,0.019331051
+8c2f48c2-211d-4f9d-a21f-6e36a7bdf39a,8c2f48c2-211d-4f9d-a21f-6e36a7bdf39a,8c2f48c2-211d-4f9d-a21f-6e36a7bdf39a,human,,,none,czech,Francie hodlá vyhlásit mimořádný stav po nepokojích,,"Francie hodlá vyhlásit mimořádný stav po nepokojích10:38 02.12.2018 © Sputnik / Julien Mattia / Přejít do fotobankyProtestní akce žlutých vest proti zvyšování cen paliv ve Francii© Sputnik / Julien Mattia / Přejít do fotobankySledujte nás naVe Francii může být po včerejších nepokojích vyhlášen mimořádný stav, prohlásil v neděli mluvčí francouzské vlády Benjamin Griveaux.Podle mluvčího, který promluvil v éteru rozhlasové stanice Europel, „je třeba uvážit, která opatření můžeme podniknout."" V odpovědi na otázku o možnosti vyhlášení mimořádného stavu řekl, že francouzský prezident Emmanuel Macron svolá v neděli po poledni poradu s premiérem a řadou ministrů, na které projednají eventuální varianty vývoje událostí.Sobotní protestní akce „žlutých vest"", jež vystupují zejména proti zvýšení cen paliv, byly doprovázeny srážkami demonstrantů s policií, pogromy a podpálením aut v Paříži. Bylo zatčeno přes 260 lidí. Ministr vnitra Francie předtím prohlásil, že během protestní akce utrpělo zranění 110 lidí, z toho asi 20 policistů. Podle francouzského ministra je jeden člověk na resuscitaci.Macron ostře odsoudil násilí ve svém projevu na tiskové konferenci v Argentině a zdůraznil, že viníci budou zjištěni a postaveni před soud.",0,0.023002144,0.97699785
+1adc42c7-b2f7-4a7b-a1da-c9080053eca8,1adc42c7-b2f7-4a7b-a1da-c9080053eca8,1adc42c7-b2f7-4a7b-a1da-c9080053eca8,human,,,none,code,Write a python function to split the array and add the first part to the end.,,"def split_Arr(a,n,k):  
+   b = a[:k] 
+   return (a[k::]+b[::]) ",0,0.43012732,0.5698726
+3b45ed4f-1208-4796-bbd5-22358b1e8ca5,3b45ed4f-1208-4796-bbd5-22358b1e8ca5,3b45ed4f-1208-4796-bbd5-22358b1e8ca5,human,,,none,german,US-Senat bestätigt bekennenden Homosexuellen an Heeresamtsspitze,,"Acht Monate nach Nominierung von Eric Fanning durch Präsident ObamaWashington – Acht Monate nach der Ernennung durch US-Präsident Barack Obama hat der Senat dem ersten bekennenden Homosexuellen an der Spitze des Heeresamts zugestimmt. Eric Fanning konnte am Dienstag vom Oberhaus bestätigt werden, nachdem der republikanische Senator aus Kansas, Pat Roberts, seinen Widerstand gegen die Ernennung wegen eines Streits mit dem Verteidigungsministerium über das US-Gefangenenlager Guantanamo aufgegeben hatte.
+Der Leiter des Heeresamtes ist der zivile Chef der Bodentruppen und führt diese gemeinsam mit dem Stabschef der Landstreitkräfte. Der 47-jährige Fanning hatte in den vergangenen 25 Jahren eine Reihe von Posten im Kongress und im Pentagon inne, unter anderem war er Assistent und Stabschef von US-Verteidigungsminister Ashton Carter.
+Unter Obama war Ende 2010 in der US-Armee die sogenannte ""Don't ask, don't tell""-Regel abgeschafft worden, die es homosexuellen Armeeangehörigen verbot, sich offen zu ihrer sexuellen Orientierung zu bekennen. (APA, 18.5.2016) ",0,0.9724258,0.027574228
+6f7f84df-565e-43c7-8259-f1e540889a65,6f7f84df-565e-43c7-8259-f1e540889a65,6f7f84df-565e-43c7-8259-f1e540889a65,human,,,none,czech,"Praha, privilegované centrum všech režimů",,"Praha, privilegované centrum všech režimů
+Praha byla vždy něco jiného, než okolní „vesnice“ a na tamních obyvatelích to bylo a je znát.Politicky vždy podléhala momentálnímu populismu daleko více, než ostatní. Stačí si vzpomenout na výsledky voleb v roce 1946, kdy Pražané lvím podílem přispěli k nástupu bolševismu. Podobný efekt nastal po roce 89, kdy nejprve zcela nekriticky prosadili agenta Havla&Co. a posléze drželi při životě celé generace modrých tunelářů. Posledním výstražným signálem byla prezidentská volba, při kterých, na rozdíl od zbytku republiky, podpořili pražané cizince a senilně dementního restitučního podvodníka, což jim vydrželo dodnes.Příčiny jsou primárně mocenské a ekonomické. Na základě dlouhodobých zkušeností každá vládnoucí elita ví, že politické převraty se odehrávají zásadně v Praze. Proto je důležité ji ovládat. Nejjednodušší je udělat to pomocí relativní spokojenosti obyvatel. Náklady státního rozpočtu na jednoho obyvatele Prahy jsou dvojnásobně proti zbytku republiky. Argument, že má Praha vyšší HDP na hlavu, je výsměchem, protože toto číslo vzniká třeba na adrese Duhová 2, kde své HDP tvoří prakticky všechny naše elektrárny. Ve skutečnosti je hlavní město obrovským vysavačem jinde vytvořených hodnot. Také přítomnost prakticky všech státních úřadů vytváří vysokou platovou úroveň a nízkou míru nezaměstnanosti. Přestěhování jediného velkého ministerstva na takové Osoblažsko by k nepoznání tento zoufale zanedbaný region změnilo a způsobilo lokální hospodářský zázrak.Pražané zatím ještě nikdy nepocítili důsledky katastrofické hospodářské politiky polistopadových vlád, ani v době nedávné krize. Proto jsou jiní, volí nevolitelné, mají pracovní morálku na úrovní rozvinutého reálsocialismu, užívají si bohatých veřejných investic, bohatě dotovanou kultura vytváří armádu vždy prorežimních „umělců“, mohou chodit na do práce na devátou a v pátek ve 12:00 mít už malou sobotu.Ale proč o tom píšu zrovna dnes? Naše vláda se snaží dotáhnout svou ochranu privilegovaných občanů do groteskních rozměrů. O daňové úniky Pražanů se tamní finačáci nezajímají, honit a buzerovat je možné jen ty venkovské burany, o čemž by provinční podnikatelé mohli psát romány. A tak si někteří z nich dovolili „zneužít“ pražského daňového deštníku, což je nepřijatelné. Proto také nenavrhují zavést v Praze standardní daňovou správu (což by odstranilo nežádoucí motivaci podnikatelů), navrhují vyhození „vesnických“ firem z Prahy.Až půjdete zase někdy k volbám, zeptejte se vašich vyvolených, jak si představují regionální rozdělení daní a občanských a podnikatelských povinností. Regionální nerovnost daleko přesahuje nerovnosti momentálně populární, jako je ta genderová či rasová. Navštivte ty zoufalé regiony a pochopíte.Převzato z Nautila
+0 0 hlasy",0,0.0449379,0.95506203
+4b8161c9-a32b-4bdc-acc2-a185b54474da,4b8161c9-a32b-4bdc-acc2-a185b54474da,079a1579-242a-48b1-b729-d3ec0a4bbc90,mpt-chat,greedy,yes,none,german,USA bilden Cyber-Einsatzgruppe zum Kampf gegen IS im Internet,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""USA bilden Cyber-Einsatzgruppe zum Kampf gegen IS im Internet"".","Die Vereinigten Staaten haben eine spezielle Einsatzgruppe für den Cyberspace gebildet, um die Aktivitäten des Terrorgruppenverbandes Islamic State (IS) im Internet zu bekämpfen. Die neue Einheit soll dabei helfen, das Online-Recrutierungssystem der Gruppierung aufzuhellen und ihren Zugang zur Digitalisierunggeneration zu erschweren.
+Diese Entscheidung wurde von US-Verteidigungsminister James Mattis genannt, nachdem er in einem Kongresshörsaal am Donnerstag ein Budgetvorlage 2019 präsentiert hatte. Der Minister sagte: “Wir müssen uns auch anpassen können – nicht nur defensiv, sondern offensiv.”
+Mattis fügte hinzu, dass es sich bei dieser neuen Strategie um eine Verbesserung unserer Fähigkeiten handelt, Terroristen zuzuschießen oder sie ausfindig machen - sowohl online als auch offline. Dies ist keine Neuerung; seit Jahren arbeiteten Amerikanische Streitkräfte daran, diese Technologien weiterzuentwickeln. Jetzt wird jedoch klar, wie wichtiger dieses Tool sein kann, wenn wir Kriege führen möchten, ohne selbst Soldaten ins Feld zu schicken.
+Der cyberkrieg hat viele Dimensionen und gibt es bereits Beispiele dafür, wo Länder andere Länder angreifen konnten indem sie Computer systeme hackten oder gar Stromnetze störten. Es geht also hier um mehr als nur Recrutiment.
+Es sind noch keine Details bekannt über welche Methoden die USA verwenden werden, aber man könnte annehmen, dass sie alle Mittel einsetzen werden, die ihnen zur Verfügung stehen, um diesen Konflikt zu gewinnen.",1,0.038205512,0.9617945
+3a8ae41e-7d82-4644-879f-bf3cf9e824f1,3a8ae41e-7d82-4644-879f-bf3cf9e824f1,3a8ae41e-7d82-4644-879f-bf3cf9e824f1,human,,,none,german,Youtube-Bastler baut funktionstüchtiges Hoverbike,,"Der Brite Colin Furze hebt auf gewagter Konstruktion mit zwei Rotoren abEr hat schon eine Kuchenfütter-Maschine, ein Rad mit Eisrädern und eine Kombination aus Bett und Schleudersitz gebaut und sich damit eine 2,6 Millionen Abonnenten starke Anhängerschaft auf Youtube erarbeitet. Nun ist dem Briten Colin Furze ein weiteres, spektakuläres Experiment geglückt.
+Weil seine Fans sich wünschten, er möge ein Fluggerät bauen, hat er nun mit Unterstützung des Autoherstellers Ford erfolgreich ein solches umgesetzt: Das ""Homemade Hoverbike"".
+Keine Bremse, zwei Beschleunigungsgriffe
+""Es hat keine Lenkung, es hat keine Bremsen, es hat zwei Beschleunigungsgriffe und nicht einmal einen Sitz"", so die Kurzbeschreibung seines unorthodoxen Fortbewegungsmittels. Nach zahlreichen Versuchen und Prototypen dokumentierte er schließlich den Erfolg.
+colinfurze
+Alltagsreif ist sein Hoverbike freilich noch nicht. Und angesichts des Einsatzes zweier mächtiger Rotoren scheint die Inbetriebnahme während des Tragens einer langen Krawatte auch nicht unbedingt empfehlenswert zu sein.
+Wer sich im Detail für die Entstehungsgeschichte des Geräts interessiert, kann diese in drei weiteren Videos nachverfolgen. (gpi, 29.04.2016) Links
+Colin Furze
+Youtube",0,0.22655632,0.7734437
+4fd54a70-3ef1-411d-815f-2f06e0c24bfc,4fd54a70-3ef1-411d-815f-2f06e0c24bfc,4fd54a70-3ef1-411d-815f-2f06e0c24bfc,human,,,none,german,Wiens FPÖ wird weiteres Wachstum zugetraut,,"Nur 16 Prozent glauben, dass die Freiheitlichen gute Ideen für Wien hättenWien – Dass es für die FPÖ in Wien gut läuft, kann man nicht nur aus den Hochrechnungen, sondern auch aus der im Frühsommer durchgeführten Market-Umfrage zu den Wiener Parteiprofilen herauslesen.
+Im Auftrag des STANDARD wurde nämlich für jede Wiener Partei erhoben, ob sie wohl in fünf Jahren bedeutender sein werde als heute – und die FPÖ bekam da die meisten Nennungen. Mehr als ein Drittel der Befragten (vor allem Jüngere, aber auch Wähler der anderen Oppositionsparteien) gehen von einer weiteren Stärkung der Freiheitlichen aus.
+Vermutetes Verständnis für Sorgen
+Ebenso stark ist die Annahme, dass die FPÖ die Sorgen der Wienerinnen und Wiener verstünde. Das sagen vor allem jüngere, männliche und beruflich qualifizierte Befragte – für Market-Parteienforscher David Pfarrhofer ein Hinweis darauf, dass die FPÖ bei beruflichen Aufsteigern und Leistungsträgern Sympathien generieren kann.
+Wenn es um die Sache geht, dann steht die FPÖ sehr viel schlechter da: Nur 16 Prozent trauen ihr gute Ideen für Wien zu, selbst in der eigenen Gefolgschaft hat die FPÖ da nur eine schwache Mehrheit. Und nur sieben Prozent meinen, die FPÖ wäre gut für den Ruf Wiens in der Welt. (Conrad Seidl, 21.8.2015) ",0,0.0045383307,0.99546164
+386a9b69-037b-402a-8606-46789cdeb2bb,386a9b69-037b-402a-8606-46789cdeb2bb,64aa1c5e-58c5-47c7-a386-147a9126c10d,chatgpt,greedy,no,none,czech,USA zveřejnily video z náletu na islamisty. Shodily 36 tun bomb,"Napiš text článku, který má nadpis ""USA zveřejnily video z náletu na islamisty. Shodily 36 tun bomb"".","USA zveřejnily video z náletu na islamisty. Shodily 36 tun bomb
+
+V posledních dnech se objevila zpráva o náletu provedeném americkými vojenskými silami na islamisty v některé zemí. USA nyní zveřejnily video z tohoto náletu, který byl proveden s cílem oslabit a zničit teroristickou organizaci.
+
+Podle informací zveřejněných americkou armádou byl nálet proveden v noci a bylo shazeno celkem 36 tun bomb na cíl, který byl pečlivě vybrán na základě zpravodajských informací. Video ukazuje, jak letadla vzlétají z letadlové lodi a následně shazují bomby na cíl. Exploze jsou velmi silné a způsobují rozsáhlé škody.
+
+Cílem náletu byla teroristická organizace, která se v dané zemi usadila a působí zde již několik let. Organizace je známá svými násilnými akcemi a útoky na civilisty. USA se rozhodly zasáhnout a oslabit tuto organizaci, aby tak snížily její schopnost provádět teroristické útoky.
+
+Podle americké armády byl nálet úspěšný a způsobil značné škody na infrastruktuře teroristické organizace. Zároveň bylo zasaženo několik významných členů organizace, kteří byli považováni za klíčové pro její fungování. Přesné ztráty na straně teroristů nejsou zatím známy.
+
+USA se dlouhodobě sna",1,0.02115188,0.9788481
+805ec8c6-09cc-4dd3-bc63-dad7b8db1436,805ec8c6-09cc-4dd3-bc63-dad7b8db1436,805ec8c6-09cc-4dd3-bc63-dad7b8db1436,human,,,none,german,Golden State von erster Niederlage bestens erholt,,"Glatter 128:103-Erfolg der Warriors gegen die Phoenix SunsOakland (Kalifornien) – Die Golden State Warriors haben sich nach ihrer ersten Saisonniederlage in der NBA bestens erholt gezeigt. Der Champion setzte sich am Mittwoch in Oakland gegen die Phoenix Suns klar mit 128:103 durch und feierte damit den 29. Sieg in Folge in der heimischen Oracle Arena. Klay Thompson kam auf 43 Punkte für die Warriors, sein Teamkollege Stephen Curry verbuchte 25 Zähler.
+Für Golden State war es der 25. Sieg im 26. Saisonspiel. Erst am vergangenen Samstag hatten Curry und Co. in Milwaukee die erste Niederlage der laufenden Meisterschaft kassiert. (APA; 17.12.2015)
+Ergebnisse vom Mittwoch: Indiana Pacers – Dallas Mavericks 107:81Orlando Magic – Charlotte Hornets 113:98 Brooklyn Nets – Miami Heat 98:104Detroit Pistons – Boston Celtics 119:116New York Knicks – Minnesota Timberwolves 107:102Atlanta Hawks – Philadelphia 76ers 127:106Chicago Bulls – Memphis Grizzlies 98:85Oklahoma City Thunder – Portland Trail Blazers 106:90San Antonio Spurs – Washington Wizards 114:95Utah Jazz – New Orleans Pelicans 94:104Golden State Warriors – Phoenix Suns 128:103Los Angeles Clippers – Milwaukee Bucks 103:90 ",0,0.902677,0.09732297
+29b42572-e975-4cd0-905f-5bbead5badf5,29b42572-e975-4cd0-905f-5bbead5badf5,29b42572-e975-4cd0-905f-5bbead5badf5,human,,,none,code,Write a python function to check whether an array contains only one distinct element or not.,,"def unique_Element(arr,n):
+    s = set(arr)
+    if (len(s) == 1):
+        return ('YES')
+    else:
+        return ('NO')",0,0.23790345,0.7620966
+c2e47eb4-b2f3-45ad-8b28-135b638a28f3,c2e47eb4-b2f3-45ad-8b28-135b638a28f3,4e947a15-0cfa-41e8-83f6-a5c8ed09d83c,mistral,greedy,yes,none,german,Zahl iranischer Todesopfer bei Hadsch fast verdoppelt,"Es folgt ein Nachrichtenartikel mit dem Titel ""Zahl iranischer Todesopfer bei Hadsch fast verdoppelt"":","> The number of Iranians killed in the annual pilgrimage to Mecca has almost doubled this year, according to official figures.
+>
+> At least 462 people died during the Hajj, which ended on Saturday, compared with 251 last year.
+>
+> Officials said most deaths were caused by stampedes and heat exhaustion.
+>
+> But some analysts say that the increase is due to a lack of organisation at the event, which attracts millions of Muslims from around the world each year.
+>
+> This year's death toll was the highest since 340 people died in 2006.
+>
+> In 2004, more than 250 people were crushed to death when two large groups of pilgrims collided near the Jamarat Bridge in Mina, outside Mecca.
+>
+> 'Lack of co-ordination'
+>
+> Saudi Arabia's interior ministry said that 97% of those who died had been buried or repatriated.
+>
+> It added that 80% of the dead were foreigners - mainly from India, Pakistan, Egypt, Bangladesh and Indonesia.
+>
+> A spokesman for the Iranian Red Crescent Society told the BBC Farsi service that it had sent 10 ambulances carrying medical staff to help treat injured Iranian pilgrims.
+>
+> He said that many of them suffered from dehydration because they did not drink enough water while performing their religious duties.
+>
+> Some analysts have suggested that the high death toll could be linked to poor planning and a lack of co-ordination between different authorities involved in organising the event.
+>
+> They also point out that there are no clear guidelines about how to deal with emergencies such as fires and stampede.",1,0.0008609154,0.9991391
+e84d734a-b624-43a5-b7fc-9137806ee184,e84d734a-b624-43a5-b7fc-9137806ee184,e84d734a-b624-43a5-b7fc-9137806ee184,human,,,none,czech,Nejméně kalorické ovoce a zelenina: Po čem rozhodně nepřiberete | Žena.cz,,"Grapefruit
+
+Grep se možná netěší tak velké oblibě jako jahody či maliny, ale v počtu kalorií a ozdravnými účinky na lidské tělo si s nimi rozhodně nezadá. 100 g těchto citrusů obsahuje maximálně 40 kcal. Grep vás zásobí vitaminy C, B1 a K, součástí ovoce jsou i blahodárné flavonoidy. Grapefruit navíc zvyšuje obranyschopnost organismu, zlepšuje krevní oběh, odvodňuje, snižuje hladinu ""zlého"" cholesterolu a působí proti některým civilizačním chorobám. Příznivě ovlivňuje pokožku a údajně pomáhá také s nespavostí.",0,0.30379105,0.6962089
+14788f6f-4cce-4dca-8294-99fd21629203,14788f6f-4cce-4dca-8294-99fd21629203,d3353077-3255-4bb7-ba9b-e652ab9c3829,cohere,sampling,no,none,german,Ehemann auf Straße niedergestochen: Drei Jahre Haft,"Es folgt ein Nachrichtenartikel mit dem Titel ""Ehemann auf Straße niedergestochen: Drei Jahre Haft"":"," Berlin (dpa) – Der Ehemann des Tatzeugs, das 2019 eine Kurzhauptfrau und ihr Einzelkind im Straßenverkehr niedergestochen hat, wird vorerst nur drei Jahre Haft verurteilt. 
+
+Mit einer Jahresstrafen verurteilten Berliner Verfahrenspersonalien (27) und der Oberlandesgericht (OLG) Berlin am Dienstag die Bewertung der Lage des Tatzeugs in der Ehe der beiden Beteiligten. 
+
+Der Ehemann wird alsZuverlässiger erfasst und mit einer Geldstrafe von 2.200 Euro bestraft. Die Kurzhauptfrau ist vorerst freigelassen. 
+
+Der Tatzeug war nach Informationen des Berliner Verkehrsministeriums (BVM) am Montag, den 9. Dezember 2019, um 15.37 Uhr in der Breitscheidstraße an der Kreuzbergstrasse in Berlin-Kreuzberg aufgetaucht. Er half den Sohn einer Kurzhauptfrau, die in die gleiche Richtung gelaufen ist, um ein Auto zu überholen. Da der Ehemann an einer Ampelrandstellung stand, wurde er von einem LKW geworfen und schwer behördlich verletzt. 
+
+Der Ehemann war von der Polizei ins Krankenhaus gebracht und krank gesagt. Er wurde nachdem er behandelt worden war mit einer Haftbefehlung ausgestellt. 
+
+Die Kurzhauptfrau wurde von der Polizei im Nachbarbarn zu einer Untersuchungshaft verhaftet. In ihrem Garten hätten sie sich Anlass daran gegeben, den Sohn zu vergewaltigen, erhielt das OLG mit Erhebung der Haftung. 
+
+Der Ehemann wurde in den vergangenen Monaten von einer Aufenthaltsaufnahme in Brandenburg-Burkheim entlassen. Seine Bewertung für den Zeugenschutz beträft nur die Zeit,",1,0.004473276,0.99552673
+cc83257e-c00e-4e66-b53f-476ef7182a26,cc83257e-c00e-4e66-b53f-476ef7182a26,cc83257e-c00e-4e66-b53f-476ef7182a26,human,,,none,code,Write a function to calculate the sum of the positive numbers of a given list of numbers using lambda function.,,"def sum_positivenum(nums):
+  sum_positivenum = list(filter(lambda nums:nums>0,nums))
+  return sum(sum_positivenum)",0,0.13591637,0.86408365
+0093c105-4ed9-4dd0-b02e-d9c20af1ff71,0093c105-4ed9-4dd0-b02e-d9c20af1ff71,0093c105-4ed9-4dd0-b02e-d9c20af1ff71,human,,,none,czech,Rodina nad zákon,,"Rodina nad zákon
+Byl jsem tu i onde opakovaně osočen (kromě jiných zločinů jako je vlastizrada, válečné štvaní [toho jsem se měl dopustit odmítáním války], xenofilie a nedostatku smyslu pro vlast, krev, čest a národ) z toho, že nestavím blaho své rodiny nade vše a nejsem ochoten kvůli němu porušit při boji proti uprchlíkům všechny zákony a zábrany, co jich jen naše kultura a právo znají.Tak bych k tomu ocitoval odstavec z článku z tištěné mutace Českého slova s názvem, který nutně musí zahřát u srdce každého dobrého islamobijce – Nepřizpůsobujme se imigrantům! – a obsahem, který si přečte s vděkem a radostí, že konečně někdo napsal „pravdu“, v tomto případě německá policistka píšící o nebezpečných a nepřizpůsobivých imigrantech:Vyrůstají prý v prostředí ovlivněném strachem a násilím, v němž je pevná společenská role a čest celého klanu přednější, než osobní svoboda nebo německé zákony. (…) Muslimové v Německu podle Kambouriové [to je ta německá policistka řeckého původu] vytvářejí vlastní, paralelní struktury k německým policejním a soudním orgánům.A teď mi řekněte, v čem je tak zásadní rozdíl mezi nadřazováním rodiny nad pravidla a zákon na straně jedné a paralelními strukturami k policejním a soudním orgánům na straně druhé, že to je v jednom případě výraz osobní a občanské odpovědnosti a ve druhém příčina tak akutního a extrémního ohrožení, že proti němu musí být zakročeno i za cenu omezení lidských a občanských práv a svobod?Převzato z blogu Tribun
+0 0 hlasy",0,0.1423218,0.8576782
+df6ba010-d2dc-4f77-9e54-2c46b62761f2,df6ba010-d2dc-4f77-9e54-2c46b62761f2,780d5c25-0043-4d6e-81b5-d7a7e5d83f4b,cohere,sampling,no,none,code,Write a function to find maximum run of uppercase characters in the given string.,"The following is the full text of a Python code solution to the exercise ""Write a function to find maximum run of uppercase characters in the given string."" from stackoverflow.com:","def max_run(string):
+    max_run = 0
+    run_start = 0
+    for i in range(0, len(string)):
+        if string[i].isupper():
+            if i != run_start:
+                run_start = i
+            max_run = max(max_run, i - run_start + 1)
+        else:
+            run_start = 0
+    return max_run",1,0.55936134,0.44063866
+7b531296-46e1-424d-b83e-622e616f89b2,7b531296-46e1-424d-b83e-622e616f89b2,7b531296-46e1-424d-b83e-622e616f89b2,human,,,none,german,Preisregen für Entwicklerinnen von CRISPR-Cas9 hält an,,"Emmanuelle Charpentier und Jennifer Doudna erhalten Paul Ehrlich- und Ludwig Darmstaedter-Preis 2016Frankfurt am Main – Die Wissenschafterinnen Emmanuelle Charpentier (47) und Jennifer Doudna (51) werden mit dem Paul Ehrlich- und Ludwig Darmstaedter-Preis 2016 ausgezeichnet. Ihre Namen sind verknüpft mit einer der größten wissenschaftlichen Sensationen der vergangenen Jahre: einer einfach zu handhabenden Allzweckschere für Gene.
+Die mit 100.000 Euro dotierte Ehrung gilt als eine der angesehensten für Forscher in Deutschland. ""Die Entdeckung der beiden Preisträgerinnen hat einen Quantensprung in der Forschung bewirkt"", begründete der Stiftungsrat seine Entscheidung. Der mit 60.000 Euro dotierte Nachwuchspreis geht an den Biochemiker und Strukturbiologen Claus-Dieter Kuhn (37) von der Universität Bayreuth.
+Die französische Mikrobiologin Charpentier ist Direktorin am Max-Planck-Institut für Infektionsbiologie in Berlin, zuvor war sie am Helmholtz-Zentrum für Infektionsforschung in Braunschweig tätig. Doudna ist Biochemikerin und Professorin an der University of California in Berkeley (USA). Die beiden Forscherinnen hatten unter anderem bereits den Dr. Paul Janssen Award for Biomedical Research und den Prinzessin-von-Asturien-Preis erhalten.  (APA, red, 25. 1. 2016) 
+Mehr zum ThemaKopf des Jahres: Emmanuelle Charpentier, die Frau mit den DNA-Scheren",0,0.01050267,0.9894973
+8e49b048-909f-41e5-8353-d707c19f259b,8e49b048-909f-41e5-8353-d707c19f259b,adae23ba-56c3-4080-9550-88c2e50f09bc,gpt3,greedy,no,none,czech,„Uprchlík do plynu.“ Německá policie odhalila ve svých řadách extremistickou síť,"Následuje článek s názvem ""„Uprchlík do plynu.“ Německá policie odhalila ve svých řadách extremistickou síť"":","
+
+Německá policie odhalila extremistickou síť ve svých řadách, která se zaměřovala na uprchlíky. Policisté byli obviněni ze spiknutí, aby uprchlíky zabili plynem.
+
+Síť byla objevena poté, co se jeden z členů sítě pokusil zabít uprchlíka plynem. Policisté zjistili, že členové sítě se snažili získat přístup k plynovým zbraním a plánovali atentát na uprchlíky.
+
+Policie uvedla, že členové sítě jsou vysoce motivovaní k tomu, aby uprchlíky zabili. Síť má více než tisíc členů po celém Německu.
+
+Policie se obává, že by síť mohla použít své zbraně k tomu, aby zabila co nejvíce uprchlíků.
+
+Německo se v posledních letech setkalo s nárůstem extremismu. Policie odhalila několik sítí, které se zaměřovaly na uprchlíky.
+
+Vláda se snaží bojovat proti extremismu tím, že zavádí nová pravidla a zákony. Policie také zvýšila svou ostražitost a začala více sledovat aktivity extremistů.",1,0.14480132,0.8551987
+46a3f19e-3fa6-447b-9e1e-3968f55ebbca,46a3f19e-3fa6-447b-9e1e-3968f55ebbca,07008144-3d1b-47ee-9911-dd87f5be8930,cohere,sampling,no,none,german,Alfa Romeo Giulia: Was für ein Lebenszeichen,"Es folgt ein Nachrichtenartikel mit dem Titel ""Alfa Romeo Giulia: Was für ein Lebenszeichen"":"," Alfa Romeo Giulia: What a milestone
+ Das Alfa Romeo Giulia ist der erste Medium-Class-Lenkfläche von Alfa Romeo seit der Giulia (bertrieben von der Alfa Romeo 75) und wird seit Oktober 2014 von FCA Italy produziert. Der Giulietta ist nicht mehr als Herstellungsaufgabe von Alfa Romeo, sondern wird von FCA Slovakia produziert. Bei den Chassis-Eigenschaften handelt es sich um die erste Medium-Class-Ära von Alfa Romeo mit Quadrifünfachantrieb und eigenem Namen. 
+
+Die Giulia und der nuptialer Stiloffset der BAT (designaufschluss für die gemeinsame Entwicklung von Automobile- und Motorradmodellen) wurden am 16. November 2015 eingeführt. Die Giulia ist die erste Freischaltung der Giulia-Zeitalter nach dem neuen Gran Turismo-Look, das von Jean Pierre Melville erfunden und von Flavio Manzoni entworfen wurde. Die Giulia reiht sich in den Markenplankonzept ein, der seit dem Fall der Alcatraz-Konzepte (neuzeitlicher Historismus) verfolgt wurde. Die Alfa Romeo Giulia ist der erste Alfa Romeo, der mit einem eigenen Namen auf den Markt kam, der über das Assenagement von Alfa Romeo gelöscht wurde. Die Giulia ist nach dem Giulietta der zweite Alfa Romeo, das eine Einheit mit einem neuen Namen der Marke auf den Markt bringt. 
+
+Das ursprüngliche Konzept der Giulia ist nach wie vor erhältlich. Das aktuelle Konzept ist eine ausgeklügte Version des ursprünglichen Konzepts mit mehr Ausstattungsvarianten. Die Alfa Romeo Giulia ist der erste Alfa Romeo, der ein IRS (Independent Rear Suspension) hat. Das Fahrverhalten der Giulia wurde von der Australischen Firma asia-motorsports mit einer eigenen Konzeption von Bilstein und Yokohama experimentell mit Tourenreifen ausgestattet. Die Ergebnisse wurden",1,0.0036140094,0.99638605
+384a52c5-0281-4ef8-b204-8984dd30380b,384a52c5-0281-4ef8-b204-8984dd30380b,dd335de7-955b-4f6b-9841-664a52d63d6d,mpt-chat,greedy,no,none,czech,"Dva agenti, generál a tajemný doktor. Schůzka v Moskvě ukázala, že novičok není prošlé zboží z 90. let – Deník N","Napiš text článku, který má nadpis ""Dva agenti, generál a tajemný doktor. Schůzka v Moskvě ukázala, že novičok není prošlé zboží z 90. let – Deník N"".","V sobotu se v Moskvě uskutečnilo setkání dvou agentů z různých zemí s generálem a tajným doktorem. Schůzka ukázala, že nový agent není jenom prošlé zboží z 90. let, ale že má i své vlastní síly.
+
+Dva agenti, jeden z Německa a druhý z Švédska, přišli ke schůzce s generálem a tajným doktorem s cílem diskutovat o nových trendech v agenturách. Tajný doktor ukázal na nové technologie, které jsou dnes k dispozici agenturám a jak se mohou tyto technologie využít k vylepšení výkonu agentů.
+
+Generál připojil se k diskusi a podělil své zkušenosti s novými agenty. ""Noví agenti nejsou jenom prošlé zboží z 90. let, ale mají i své vlastní síly. Mají větší pohyblivost, jsou rychlejší a mají lepší zraky než naší předchůdci"", řekl.
+
+Tajný doktor přidával: ""Noví agenti mají i větší inteligenci a jsou schopni rychleji zpracovávat informace. To znamená, že jsou schopni reagovat rychleji na situace a efektivněji provádět své úkoly.""
+
+Schůzka ukázala, že nový agent není jenom prošlé zboží z 90.",1,0.11250255,0.8874974
+1d797c0e-fb0b-4e6a-b9c6-92f525354fc2,1d797c0e-fb0b-4e6a-b9c6-92f525354fc2,21d98491-841d-4e5d-b969-4e0efc338d46,mpt,sampling,no,none,czech,"VIDEO: „Estébák, všivák jeden.“ Babiše na Pardubicku vypískali, na stadion už raději nešel","Následuje článek s názvem ""VIDEO: „Estébák, všivák jeden.“ Babiše na Pardubicku vypískali, na stadion už raději nešel"":","https://www.seznamzpravy.cz/clanek/video-estebak-vsivak-jeden-babishe-na-pardubicku-vypisksali-na-stadionu-uz-radeji-nešel-131656
+
+[^14]: ""V různých komentářích je neúprosně vyjádřena zatvrdující zásada nástroje a odřečené postavení, jak je tomu sice usuzované, často navenek na nepříznivém teréně, anebo jako zpochybné zkoumání většiny z něhočeho stísněného kromě skutečných vědců a vědců aktivně několikrát vyhrabáceného výzkumného procesu, navenek vstříc důvěrnosti výzkumné discipliny a zaměstnance výzkumu, ale i o švýcarské ""vztahy""; v nichž pak třeba odřekl by se ""pojistku"" věda a jak je usuzovaná (a považována zvl. právníkem), která se zaměřením na dokonce tak málo skutečně důvěrná zvl. aktivně použitá k zmírnění problémů, jejichž jednou z nejvažších zdrojů je vlastně, jak už navenek zmínělo, nepříznivý terén. V případech, kdy však třeba na opakování se na to zaměření, již bylo i zařazeno, že j",1,0.2740437,0.7259563
+89fd3f18-76f9-46e3-9c61-9bade8f0ff4b,89fd3f18-76f9-46e3-9c61-9bade8f0ff4b,89fd3f18-76f9-46e3-9c61-9bade8f0ff4b,human,,,none,german,Drogenschmuggel-Prozess gegen Vater und Sohn in Steyr,,"Laut Anklage 611 Kilogramm Kokain in Segelboot aus Brasilien nach Europa transportiert – Urteil heute erwartetSteyr – Ein 61-Jähriger und sein 29-jähriger Sohn müssen sich am Mittwoch in einem Drogenschmuggel-Prozess im Landesgericht Steyr in Oberösterreich verantworten. Ihnen wird vorgeworfen, 611 Kilogramm Kokain in einem Segelboot aus Brasilien nach Europa geschmuggelt zu haben. Strafen zwischen ein und fünfzehn Jahren drohen.
+Das Rauschgift wurde laut Anklage 2014 aus Kolumbien und Bolivien per Flugzeug nach Brasilien gebracht. Dort wurde es auf einen in Österreich registrierten Segelkatamaran mit einem eigens angelegten Versteck verladen, von den beiden Oberösterreichern über den Atlantik transportiert und in spanischen Hoheitsgewässern an unbekannte Abnehmer übergeben. Dafür bekamen Vater und Sohn von einem über den Atlantik agierenden Drogenring jeweils 250.000 Euro.
+2015 habe der 61-Jährige einen weiteren Schmuggel versucht. Doch wegen einer Verzögerung bei der Anlieferung kehrte er nach Österreich zurück, wo er und sein Sohn festgenommen wurden. Ein Urteil soll noch am Mittwoch ergehen. (APA, 9.3.2016) ",0,0.008240096,0.99175996
+61f7e61f-099b-4e3a-85f0-7501eb4b8071,61f7e61f-099b-4e3a-85f0-7501eb4b8071,61f7e61f-099b-4e3a-85f0-7501eb4b8071,human,,,none,german,Wiener ÖVP in Alarmstimmung,,"Broschüre fordert Stadtwache, Zugbegleiter und WerteschulungenWien – Der Donnerstag war bei den Wiener Schwarzen Aktionstag. Frühmorgens rückte Landesparteichef Gernot Blümel aus, um dringend ein paar schrille Helfer an den Mann beziehungsweise an die Frau zu bringen. Als Motto der Aktion gab man via Twitter aus: ""Was Rot-Grün ignoriert, darum kümmern wir uns – Ihre Sicherheit. Wir verteilen Taschenalarme heute ab 9 Uhr, Wien Praterstern.""
+In einer Begleitbroschüre forderte die ÖVP unter anderem die ""Einführung einer Stadtwache"", eine ""Analyse der Angsträume inklusive Lichtkonzepte"" sowie Zugbegleiter in öffentlichen Verkehrsmitteln. Um das Ganze schließlich beim letzten Punkt des Forderungskatalogs mit ""verpflichtenden Werteschulungen für Asylwerber"" zu verknüpfen.
+Argumentativ unterstützt wurde das schwarze Sirenengeheul von der Behauptung, die Zahl der sexuellen Übergriffe in Wien sei ""in den letzten zehn Jahren um knapp 50 Prozent gestiegen"".
+Was zu viel ist, ist zu viel
+Vergleicht man aber die Kriminalitätsstatistik der Jahre 2006 und 2014, ist die Zahl der Anzeigen von ""strafbaren Handlungen gegen die sexuelle Integrität und Selbstbestimmung"" jedoch gesunken – und zwar von 1.188 im Jahr 2006 auf 1.136 im Jahr 2014. Das parteieigene Twitter-Team fand zwischenzeitlich dann auch, ""jede einzelne Anzeige ist zu viel und muss verhindert werden"". Um sich kurz darauf zu korrigieren: Man habe die Taten gemeint, nicht die Anzeigen. (riss, 22.1.2016) ",0,0.14007862,0.8599214
+55856e47-f575-4e7a-9607-64167e74fd85,55856e47-f575-4e7a-9607-64167e74fd85,b3fa9570-384b-402b-b789-a65ad56ca08b,chatgpt,greedy,no,none,code,Write a function to caluclate arc length of an angle.,"Write just the Python code solution for the problem ""Write a function to caluclate arc length of an angle."".","import math
+
+def calculate_arc_length(radius, angle):
+    arc_length = (angle / 360) * (2 * math.pi * radius)
+    return arc_length
+
+# Example usage
+radius = 5
+angle = 45
+result = calculate_arc_length(radius, angle)
+print(result)",1,0.097674504,0.9023255
+7af021a0-7b57-4d22-b76f-b1e63523873f,7af021a0-7b57-4d22-b76f-b1e63523873f,c31d8fc7-ceec-47f7-b1b2-4b935d9a67ec,mpt-chat,greedy,yes,none,code,Write a function to check if one tuple is a subset of another tuple.,"Write just the Python code solution for the problem ""Write a function to check if one tuple is a subset of another tuple."".","def is_subset(superset, subset):
+    return all([elem in superset for elem in subset])",1,0.52030134,0.4796987
+53c2d814-3922-4735-824f-50732fbbec71,53c2d814-3922-4735-824f-50732fbbec71,9ae73d58-5e7a-4422-9308-ac70c03516b2,mpt-chat,sampling,yes,none,code,Write a function to find all five characters long word in the given string by using regex.,"Write just the Python code solution for the problem ""Write a function to find all five characters long word in the given string by using regex."".","def find_five_char_words(string):
+    pattern = r'w{5}' # Create regular expression pattern of length 5 
+    matches = re.findall(pattern, string)  # Find matches of pattern in input text 
+
+     return list(set([match[0] if match else None for match in matches])) 
+# Usage: print (find_five_char_words(""Hello world this is an example 12345 Hello World again""))",1,0.6200393,0.37996075
+30033cc1-1ffb-4c10-b32c-a7f84bf3ea80,30033cc1-1ffb-4c10-b32c-a7f84bf3ea80,c3e805e5-483c-4b3f-bd7a-82f81c12c082,mistral-chat,sampling,yes,none,german,Rotor-Chiffriermaschine der Wehrmacht auf Ebay aufgetaucht,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Rotor-Chiffriermaschine der Wehrmacht auf Ebay aufgetaucht"".","Ein Rarität hat auf eBay auftaucht - eine der letzten noch in Betrieb stehende Rotor-Chiffriermaschinen, die während des Zweiten Weltkriegs von der Deutschen Wehrmacht genutzt wurden. Die Maschine ist ein Enigma I und gilt als äußerst schwierig zu brechen.
+
+Mit ungefähr 150 Entscheidungsgängen wurde sie bislang vermutlich nur zwei Mal gebrochen, was die allgemein anerkannte Schwierigkeit dieser Waffe belegt. Der Verkauf eines solchen Objekts befindet sich in der Preiskatastrophenklasse.
+
+Es wird zurzeit diskutiert, ob man diese Maschine nach ihrem Ankauf wieder außerdem für militärische Zwecke oder historisch relevante Forschungen nutzen sollte. Wegen ihrer geschichtlichen Bedeutung wird jedoch ein hohes Erschaffungspreis an das Auktionshaus verwiesen.",1,0.32769856,0.6723015
+9ae43635-cd30-41df-9ce1-efeb013dd4ee,9ae43635-cd30-41df-9ce1-efeb013dd4ee,3533b429-c1be-44c6-b663-f143f19c4363,mistral,greedy,yes,none,german,STANDARD und Styria starten Flatrate-Abo für vier digitale Zeitungen,"Es folgt ein Nachrichtenartikel mit dem Titel ""STANDARD und Styria starten Flatrate-Abo für vier digitale Zeitungen"":","# STANDARD and Styria launch flat rate subscription for four digital newspapers
+
+The Austrian media group Styria has launched a new flat rate subscription model in cooperation with the publishing house Standard Medien. The offer includes access to all online content of the daily newspaper Die Presse, the weekly magazine Falter as well as the business magazines Wirtschaftsblatt and Trend. In addition, subscribers can read the ePaper editions of these titles on their smartphones or tablets.
+
+""We are very pleased that we have been able to win over another major publisher for our platform,"" says Dr. Andreas Schneider, CEO of STANDARD. ""With this step, we are further expanding our range of offers and thus strengthening our position as an independent provider of high quality journalism.""
+
+In order to be able to use the full scope of services, users must register once at www.standardmedien.com/abo. Afterwards they will receive a confirmation email from which they can log into the individual websites using their username and password.",1,0.0013199276,0.99868006
+96b60552-f734-430b-97ea-fc1d5e201e63,96b60552-f734-430b-97ea-fc1d5e201e63,366d6e8d-d29d-4d8f-ba21-177ad3272cbb,llama-chat,greedy,yes,none,czech,Proti násilí na ženách se dělá víc v Istanbulu než v Praze – A2larm,"Napiš text článku, který má nadpis ""Proti násilí na ženách se dělá víc v Istanbulu než v Praze – A2larm"".","Title: Proti násilí na ženách se dělá víc v Istanbulu než v Praze – A2larm
+
+Introduction:
+V recent years, there has been a growing concern about violence against women in various parts of the world. While some cities have made progress in addressing this issue, others continue to struggle. In this article, we will compare the situation in Istanbul and Prague, two cities with different cultural backgrounds and approaches to tackling gender-based violence. We will explore the reasons behind the disparity in efforts to combat violence against women and highlight the work that still needs to be done.
+
+Istanbul: A City of Contrasts
+Istanbul, once known as Constantinople, is a city with a rich history and culture. It is a metropolis that straddles Europe and Asia, with a population of over 14 million people. However, beneath its bustling streets and vibrant markets lies a dark reality. Violence against women is a persistent problem in Istanbul, with high rates of domestic abuse, sexual harassment, and femicide. According to a study by the Turkish government, 38% of women in Turkey have experienced physical or sexual violence from their partners. The city's patriarchal society and lack of effective laws and policies have contributed to this issue.
+
+Despite these challenges, Istanbul has seen a surge in activism and initiatives aimed at combating violence against women. The city has witnessed numerous protests and campaigns, such as the ""Don't Mess With My Outfit"" movement, which began as a response to a politician's comment that women should dress more modestly to avoid attracting attention. This movement has sparked important conversations around victim-blaming and rape culture. Moreover, organizations like the Istanbul Women's Network have emerged, providing support and resources for survivors of gender-based violence. These efforts have led to increased awareness and a growing recognition of the need for change.
+
+Prague: A Safer Haven?
+In contrast",1,0.000508888,0.9994911
+0bb60476-d8a2-4a15-bc85-80becfd79c5a,0bb60476-d8a2-4a15-bc85-80becfd79c5a,0bb60476-d8a2-4a15-bc85-80becfd79c5a,human,,,none,german,Russische Hintertür aus dem Dopingsumpf,,"Nach Dopingskandal bringt Russlands Sportminister Mutko Stabhochsprungstar Isinbajewa als ""Reformerin"" ins SpielMoskau – Zur Bewältigung des Dopingskandals hat Russlands Sportminister Witali Mutko Stabhochsprungstar Jelena Isinbajewa als ""Reformerin"" des krisengeschüttelten Leichtathletikverbands ins Spiel gebracht. ""Sie ist eine Bewerberin für ein leitendes Amt"", sagte Mutko. Isinbajewa bereitet sich indes nach einer Babypause auf ihr Comeback vor. Trotz der vorläufigen Suspendierung russischer Sportler durch den Weltverband IAAF. Ihr Trainer Jewgeni Trofimow glaubt, dass die 33-jährige Weltrekordlerin bei den Spielen 2016 in Rio unter olympischer Flagge antreten könnte. ""Diese Möglichkeit existiert. Jelena ist sauber und will ihre Unschuld zu beweisen. Sie will ihr drittes Gold gewinnen.""
+Der russische Sportjurist Tagir Samakajew sagte, rechtlich sei dies durchaus möglich. Der heutige IAAF-Präsident Sebastian Coe ist wegen des Boykotts westlicher Staaten 1980 in Moskau selbst unter der Flagge mit den Fünf Ringen gestartet. (red, APA, 15.11.2015) ",0,0.98629457,0.013705376
+364b12b7-eece-48ec-a024-cfa2575400c1,364b12b7-eece-48ec-a024-cfa2575400c1,14c75234-e5a7-434b-8619-023106f2f841,mistral-chat,greedy,no,none,german,Istanbul: Eröffnung von weltgrößtem Flughafen verschoben,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Istanbul: Eröffnung von weltgrößtem Flughafen verschoben"".","Istanbul: Eröffnung von weltgrößtem Flughafen verschoben
+
+Die Eröffnung des weltgrößten Flughafens in Istanbul, der als Teil des neuen Flughafenprojekts ""Istanbul New Airport"" (INA) erbaut werden soll, wurde aufgrund von Verzögerungen im Bauprojekt um ein Jahr verschoben. Der Flughafen sollte ursprünglich am 31. Dezember 2019 eröffnet werden, wird aber jetzt für den 31. Dezember 2020 geplant.
+
+Der Grund für die Verschiebung ist die Verzögerung im Bauprojekt, die auf eine Reihe von Faktoren zurückzuführen ist, darunter technische Probleme, Verzögerungen in der Lieferung von Baumaterialien und Arbeitskräften sowie Verzögerungen in der Genehmigung des Projekts durch die türkische Regierung.
+
+Die Eröffnung des Flughafens wird von der türkischen Regierung als ein wichtiges Projekt für die Wirtschaft und die Tourismusindustrie in der Türkei angesehen. Der Flughafen soll die Kapazität des bisherigen Flughafens Atatürk in Istanbul übersteigen und die Stadt mit den weltweit größten Flughafenanlagen ausstatten.
+
+Die Eröffnung des Flughafens wird von der türkischen Regierung als ein wichtiges Projekt für die Wirtschaft und die Tourismusindustrie in der Türkei angesehen. Der Flughafen soll die Kapazität des bisherigen Flughafens Atatürk in Istanbul übersteigen und die Stadt mit den weltweit größten Flughafenanlagen ausstatten.",1,0.0014395138,0.9985605
+49a4edd8-c68b-4041-b431-b55693498869,49a4edd8-c68b-4041-b431-b55693498869,49a4edd8-c68b-4041-b431-b55693498869,human,,,none,czech,LA Times: Saúdové jsou vystrašení a na USA už spoléhat nemohou,,"LA Times: Saúdové jsou vystrašení a na USA už spoléhat nemohou21:00 12.01.2016
+(aktualizováno: 13:39 14.01.2016)© AP Photo / Pablo Martinez Monsivais, FileKrál Saúdské Arábie Salmán bin Abd al-Azíz© AP Photo / Pablo Martinez Monsivais, FileSledujte nás naKrálovská rodina v Saúdské Arábii je vystrašená – a to je špatné pro i beztak nepříliš dobré vztahy mezi Rijádem a Washingtonem, píše sloupkař novin Los Angeles Times a jejich bývalý blízkovýchodní dopisovatel Doyle McManus.„Vztahy mezi Saúdskou Arábií a USA jsou rozviklané jak nikdy předtím"", píše.Podle názoru McManuse obavy Saúdů jsou zapříčiněny jak vnějšími, tak i vnitřními faktory. Například je „obklopují nepřátelé"". Na severu je to vůdce Islámského státu Abú Bakr al-Bagdádí, který slíbil, že svrhne vládnoucí královskou dynastii. Na jihu, v Jemenu — povstalci šíité, na východě — protivník, kterého se saúdská dynastie bojí nejvíce — šíitský Írán.Kromě toho země má i domácí problémy, mají obavy z diverzí jak ze strany IS, tak ze strany Íránu, vláda přijímá opatření proti disidentům — i šíitům, i sunnitům. Prudký pokles cen ropy vytváří díru ve státním rozpočtu, zatímco jeho obyvatelstvo, zvyklé na bezplatné komunální služby a příspěvky na bydlení, i nadále roste.Saúdská dynastie, píše autor, nyní prožívá krizi posloupnosti: o 80letém králi Salmánovi, který se usadil na trůn v minulém roce, diplomaté v soukromých kruzích mluví jako o „téměř ponořeném do stařeckého marasmu"".„Kdysi byl tento režim pilířem konzervativní stability a teď se vlivem strachu stal nepředvídatelným"", píše McManus.Začátkem ledna Saúdská Arábie oznámila popravu 47 lidí, většinou sunnitských extremistů, spojených s Al-Káidou, ale bylo mezi nimi i několik šíitských aktivistů, například šíitský kazatel Nimr Bákir al-Nimr.Tato poprava byla impulzem pro řetěz událostí, které nakonec způsobily rozpad diplomatických vztahů Saúdů s Teheránem. V minulosti saúdští princové mohli počítat s podporou USA ve všech neshodách s Íránem. Ale teď je všechno jinak.Místo podpory Rijádu Washington prohlásil, že je nespokojen s oběma stranami: se Saúdy kvůli popravě Nimr Bákira al-Nimra, s Íránci kvůli tomu, že nedokázali zajistit ochranu velvyslanectví Saúdské Arábie v Teheránu.Přitom v soukromých kruzích zástupci USA, podle slov McManuse, netají svou podrážděnost z jednání království, a zástupci Rijádu naopak neskrývají svou nespokojenost s Američany.„Již dlouho pozorujeme zhoršení vztahů mezi USA a Saúdskou Arábií — začalo to dávno před vládou Baracka Obamy"", komentoval situaci bývalý americký velvyslanec v Rijádu Charles W. Freeman mladší.V rozhovoru s McManusem poznamenal, že vztahy těchto dvou zemí byly budovány „na společných zájmech a ne na společných hodnotách"". A v posledních letech se jejich zájmy podstatně liší — například v tom, co se týče Íránu, ropné otázky a dalších oblastí.Obě země se sice ještě vzájemně potřebují, ale už méně než dříve a trhliny v jejich vztazích se i nadále zvětšují, uzavírá novinář-sloupkař.",0,0.12541597,0.8745841
+44fd6cc6-8dba-4a8a-973e-ee9e8c41e78c,44fd6cc6-8dba-4a8a-973e-ee9e8c41e78c,ab291738-cfe1-4126-8910-74c56002b23d,gpt2,sampling,yes,none,german,"Kerry hält Syrien für nur noch ""Wochen"" von Übergang entfernt","Es folgt ein Nachrichtenartikel mit dem Titel ""Kerry hält Syrien für nur noch ""Wochen"" von Übergang entfernt"":","Ankönig ist es erneut gesellschaftlicher Theologie: Die äußere Religiösen die dritte Auflage sind. In eine Einführung weiterer Aufnahme zur Zeit in den Kommission wurden auszurechnen Ausbrechen, welches vor allem diese Verhältnis nicht zur Voraussetzung deren Arbeit geworden.
+
+Zwei Tafekts der Entwickler im Abendland
+
+The first edition has recently been published and the present version reflects some revisions that were made to correct errors in an earlier translation.
+
+Note: This online book exists for research purposes only. It is not meant as documentation on your school/college or professional experience in this field. Please download the printed book as soon possible from one of our authorized suppliers: Scholastica Book Publishing Company, University Press Oxford.",1,0.005467705,0.9945322
+2b64b799-cb4c-4f73-a2f6-62a4b287a467,2b64b799-cb4c-4f73-a2f6-62a4b287a467,2b64b799-cb4c-4f73-a2f6-62a4b287a467,human,,,none,german,Wien-Wahl: SPÖ plakatiert Wiens Probleme,,"Erste Werbewelle ohne BürgermeisterWien – Die Wiener SPÖ startet am Montag ihre erste Plakatwelle und verzichtet diesmal auf reine Feel-good-Sujets. ""Lebensqualität schön und gut. Aber auch wurscht, wennst dir keine Wohnung leisten kannst"", affichiert die Regierungspartei etwa. Man wolle Probleme nicht schönreden, sondern aktiv ansprechen, erklärte Landesparteisekretär Georg Niedermühlbichler bei der Präsentation am Freitag.
+Vier Motive werden in den kommenden zwei Wochen stadtweit zu sehen sein. Thematisiert werden neben gestiegenen Mietpreisen auch der ""Bamml vor der Zukunft"", Ausbildung (Lehrlinge) und Arbeitslosigkeit. Der Slogan zur letzteren lautet beispielsweise: ""Wien ist die beste Stadt der Welt. Aber was bringt dir das, wennst keine Hackn hast?"" Bebildert hat man den Spruch mit einem jungen, Freizeithemd und Krawatte tragenden Radfahrer mit Umhängetasche.
+.@SP_Wien hey cool, dass der Kickl bei euch die Wahlplakate texten darf. Das wird bestimmt erfolgreich. Cc: @zuschoen— Tagespolitik (@Tagespolitik) August 14, 2015
+
+
+Mit Teil zwei der Serie will die SPÖ dann ab September die Antworten auf die erwähnten Probleme geben. Auf diesen Plakaten wird dann – im Unterschied zur jetzigen Welle – auch Bürgermeister Michael Häupl zu sehen sein.
+@SP_Wien ich fands ja nicht schlecht was die spö leistet, wenn ich das so lese denk ich mir allerdings die Probleme dürften an euch liegen.— Markus Sugarhill (@MSugarhill) August 14, 2015
+
+
+(APA, red, 14.8.2015) 
+",0,0.40533894,0.59466106
+63a5c457-588c-43df-b290-a59175b11529,63a5c457-588c-43df-b290-a59175b11529,18faaefe-012b-4fc8-9b82-bc79eff9b399,gpt2,sampling,yes,none,czech,Rekordní bitcoin: hodnota kybernetické měny přesáhla tisíc dolarů,"Následuje článek s názvem ""Rekordní bitcoin: hodnota kybernetické měny přesáhla tisíc dolarů"":","The price of the coins in Euros is low, as is their quality. It seems unlikely that a crypto-currency will grow and reach success as ""Zyberty"".
+
+Bitcoin prices are usually high because it has great demand among the buyers. The users believe that no one else has bought them yet. When that changes Bitcoin becomes valuable for these people as well. That's why we should see only short term movements.
+
+Possible solutions:
+
+First of all, if they have the money to buy it from the seller to replace what they would sell to the central authority, there can be better price competition than usual. Also, one possible solution would be to start a bank run with bitcoins instead of legal tender — buying or selling at higher rates (like 10x or 20x) until they go above zero again. Once this happens, then Bitcoin holders could easily decide if to try the opposite and sell (to another crypto currency in the hope of becoming rich faster), hoping against hopes that a few other currencies follow suit. It'd also work both with BTC and ZYBUTERTY (or its copy). Then once some of those people become fabulously wealthy they can get involved so they can own a majority of those cryptocurrencies. So you won't even need this scheme to control bitcoin! You'd just need a financial center like JPMorgan in China or maybe the World Bank. If all countries stop issuing fiat money people might use Bitcoins too — until the inflationary problems of fiat currencies wear off eventually. After years of deflation, Bitcoin may not be worth very much either.
+
+Another possible future evolution
+
+A good question to ask is whether there is anyway I can make an example of how this plan would solve two major issues for crypto currency creators: 1) How do we create a digital asset? — Why bother converting fiat currency when an independent digital asset is created on top of it? 2) We cannot regulate its value. For the government to take over or give itself the power to create our coin/currence directly from something we invented is impossible given current laws concerning economic security. Instead it must first be a currency used by all of society and then perhaps a stock which investors hold in their portfolio. Maybe then the government actually takes",1,0.0025042216,0.9974957
+7f88ed30-a0f6-4df6-b946-af6edf52d3ef,7f88ed30-a0f6-4df6-b946-af6edf52d3ef,7f88ed30-a0f6-4df6-b946-af6edf52d3ef,human,,,none,german,"Ungarn will ""Dublin-Flüchtlinge"" wieder übernehmen",,"Budapest verschärfte Asylgesetz, auch um Zaun zu Serbien errichten zu können Budapest/Wien – Ungarn ist offenbar nun wieder bereit, aus anderen EU-Ländern zurückgesandte Flüchtlinge zu übernehmen. Laut einer Aussendung der ungarischen Botschaft in Österreich vom Montag hat die ungarische Migrationsbehörde den anderen EU-Staaten am 3. Juli eine entsprechende Entscheidung mitgeteilt.
+Ende Juni war Ungarn mit der EU in der Flüchtlingsfrage auf Konfrontationskurs gegangen. Es hatte die Dublin-III-Verordnung der EU ausgesetzt, die eigentlich vorsieht, dass Flüchtlinge wieder aufgenommen werden, die in Ungarn in die Europäische Union eingereist, dann aber in andere EU-Länder weitergefahren sind.
+Asylgesetzverschärfung
+Unterdessen hat Ungarn ungeachtet der internationalen Kritik sein Asylgesetz verschärft, um den Zustrom von Flüchtlingen zu begrenzen. Das Parlament in Budapest verabschiedete am Montag ein entsprechendes Gesetz. Es bildet unter anderem die rechtliche Grundlage für die Errichtung eines Zauns an der südlichen Grenze zu Serbien mit dem Ziel, die illegale Einwanderung zu stoppen.
+Zudem erlaubt es der ungarischen Regierung, Asylanträge von Flüchtlingen abzulehnen, die über andere, als sicher eingestufte Länder nach Ungarn eingereist sind, und schränkt den Zeitraum zur Überprüfung von Asylansprüchen ein. Die Vereinten Nationen und der Europarat hatten das Gesetz mit der Begründung kritisiert, es schränke den Schutz von Flüchtlingen ein. (APA, 6.7.2015) ",0,0.0069332123,0.9930668
+3832a9a8-a3b0-4044-baaf-dfe88e977a5f,3832a9a8-a3b0-4044-baaf-dfe88e977a5f,b445d07e-d8c1-4635-8362-ec14922e843e,gpt3,greedy,no,none,german,Nigeria errichtet Lager zur Rehabilitation ehemaliger Kämpfer,"Es folgt ein Nachrichtenartikel mit dem Titel ""Nigeria errichtet Lager zur Rehabilitation ehemaliger Kämpfer"":","
+
+Nigeria hat ein Lager für ehemalige Kämpfer errichtet, die aus dem Bürgerkrieg in der Region des Nigerdeltas entlassen wurden. Das Lager soll den ehemaligen Kämpfern helfen, sich an das zivile Leben zu gewöhnen und neue Fähigkeiten zu erlernen.
+
+Das Lager wurde von der Regierung von Nigeria und dem Internationalen Komitee der Roten Kreuzes (IKRK) errichtet. Es befindet sich in der Stadt Warri im Nigerdelta und bietet Platz für bis zu 500 ehemalige Kämpfer.
+
+In dem Lager werden den ehemaligen Kämpfern verschiedene Programme angeboten, um sie auf ein Leben nach dem Krieg vorzubereiten. Dazu gehören unter anderem Schulungen in Friedensstiftung, Konfliktlösung und Gewaltprävention. Außerdem werden den ehemaligen Kämpfern Beratung und psychologische Unterstützung angeboten.
+
+Das Lager ist Teil eines größeren Rehabilitationsprogramms für ehemalige Kämpfer in Nigeria, das von der Regierung und dem IKRK durchgeführt wird. Seit dem Beginn des Programms im Jahr 2009 wurden bereits mehr als 3.000 ehemalige Kämpfer in dem Lager behandelt.",1,0.004560324,0.9954397
+fb21330b-7373-4b2c-805a-16a9270143f2,fb21330b-7373-4b2c-805a-16a9270143f2,6e47bcce-76ea-45ad-993a-cd160bfc3987,mpt-chat,greedy,no,none,czech,Budoucnost biopaliv v EU,"Napiš text článku, který má nadpis ""Budoucnost biopaliv v EU"".","Biopaliv, nebo biomasa, je jedním z klíčových zdrojů energie pro budoucnost EU. Díky rozvoji technologií a inovacím v sektoru biopalivu se stále více europských zemí zaměřuje na zvýšení spotřeby biopalivu v energetice.
+
+Podle předpovědí, biopaliv může přesnější informace o tom, co se děje v Česku v oblasti biopalivu a jak se tento zdroj energie využívá v Česku v budoucnosti.",1,0.06345052,0.9365495
+73e4d531-efce-4d8b-98b5-34c13e9b6a53,73e4d531-efce-4d8b-98b5-34c13e9b6a53,93d4d64e-563b-48ee-ac83-1f7ce8710afd,gpt3,sampling,no,none,german,Ein Jahr Pegida: Eine braune Torte,"Es folgt ein Nachrichtenartikel mit dem Titel ""Ein Jahr Pegida: Eine braune Torte"":","
+
+31. Oktober 2014 – Am 1. Oktober feierte die rechtspopulistische Organisation Pegida ihr einjähriges Bestehen in der ostdeutschen Stadt Dresden. Die Bewegung, die ursprünglich unter dem Namen ""Patriotische Europäer gegen die Islamisierung des Abendlandes"" (Pegida) started, hat sich zum Ziel gesetzt, gegen die angebliche ""Islamisierung"" Deutschlands und Europa zu protestieren. Seit Pegidas Gründung im Herbst 2014 sind die Demonstrationen der Organisation regelmäßig von Gewalt und Ausschreitungen begleitet worden.
+
+Am vergangenen Samstag fand die jüngste Pegida-Demonstration in Dresden statt, bei der mehrere Tausend Menschen teilnahmen. Während der Veranstaltung kam es zu Ausschreitungen, bei denen mehrere Menschen verletzt wurden. Die Polizei nahm insgesamt 19 Pegida-Anhänger fest.
+
+Pegida ist inzwischen zu einer internationalen Bewegung geworden, die in vielen europäischen Ländern Niederlassungen eröffnet hat. In Deutschland sind Pegida-Ableger in zahlreichen Städten aktiv, darunter Berlin, Frankfurt, Köln und München. Die Organisation wird jedoch von vielen Menschen kritisiert, die sie als rassistisch und islamophob verurteilen.",1,0.0037946396,0.9962054
+48f6bf16-1e3a-495d-be95-e5c262ede0c8,48f6bf16-1e3a-495d-be95-e5c262ede0c8,68e30bb7-7f7c-4239-b493-af437a32ba64,llama-chat,greedy,no,none,german,Indien: Mob tötete vermeintlichen Rinderschmuggler,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Indien: Mob tötete vermeintlichen Rinderschmuggler"".","Indien: Mob tötete vermeintlichen Rinderschmuggler
+
+In einem dramatischen Vorfall in dem indischen Bundesstaat Jharkhand haben sich Einwohner eines Dorfes einen vermeintlichen Rinderschmuggler getötet. Der Mann, der noch nicht identifiziert wurde, wurde von einer Gruppe von Dorfbewohnern in der Nähe des Dorfes Kandra in der Distrikt Khunti festgenommen und anschließend gelyncht.
+
+Laut Augenzeugenberichten soll der Mann in einem Lastwagen Rinder transportiert haben, als er von den Dorfbewohnern gestellt wurde. Die Menge warf Steine und attackierte den Mann mit Schlagwerkzeugen, bis er starb.
+
+Einige der Dorfbewohner behaupten, sie hätten den Mann für einen Rinderschmuggler gehalten, der versucht habe, das Vieh in den Nachbarstaat Bihar zu schmuggeln. Andere sagen jedoch, dass der Mann möglicherweise ein unschuldiger Lastkraftfahrer war, der nur seinen Job ausführen wollte.
+
+Die Polizei hat die Leiche des Mannes geborgen und ermittelt gegen die Täter. Ein Sprecher der Polizei sagte, dass sie alle Beteiligten identifizieren und vor Gericht bringen werden.
+
+Dieser Vorfall bringt das Problem der Rinderschmuggel in Indien wieder in den Fokus. In letzter Zeit haben sich die Preise für Rindfleisch stark erhöht, was zu einem Anstieg von Rinderschmuggel führt. Viele Menschen in ländlichen Gebieten Indiens haben sich auf den Schmuggel von Rindern spezialisiert, um den hohen Profit zu maximieren.
+
+Die indische Regierung hat jedoch versucht, das Problem zu bekämpfen, indem sie strengere Gesetze und Strafen für Rinderschmuggler einführt. Die Polizei hat in letzter Zeit eine Reihe von Razzien durchgeführt und viele Schmugg",1,0.004063114,0.9959369
+90c24eb0-6c03-4810-a457-af3657805d91,90c24eb0-6c03-4810-a457-af3657805d91,7fe7c9a5-5ea0-4223-92bf-3dc201ae8f78,cohere,sampling,no,none,czech,To je vítěz soutěže o nejošklivější zvíře: sliznatá ryba blobfish,"Následuje článek s názvem ""To je vítěz soutěže o nejošklivější zvíře: sliznatá ryba blobfish"":"," This funny-looking fish species was awarded first place in the annual Ugly Animal Preservation Society contest in England for the second year in a row. Their victory meant an extra boost in funding for endangered and unusual species, and an increase in public awareness. Unlike some other fish, blobfish are practically immobile and have no real defense mechanisms, making them an easy target for predators. 
+
+Scientists say the fish doesn't do well in captivity. As the oceans warm up from climate change, blobfish are able to migrate to cooler waters where they can continue their typical behavior. If captured and put in a tank, they basically just sit there. It's no wonder the blobfish doesn't do well for fishmongers. Not only is the blobfish tasteless, it literally dissolves in your hands. Its gelatinous mass lacks a skeleton, so it easily falls apart.
+
+Even though they aren't the most attractive fish, blobfish provide crucial benefits to the deep seafloor by feeding on crustaceans and converting food to nutrients that help sustain the ecosystem. Every part of the ocean is connected, so it's important to protect the blobfish and the seafloor. ",1,0.00062153704,0.99937844
+ff1fc2c6-7b22-485d-92ea-623eddadd988,ff1fc2c6-7b22-485d-92ea-623eddadd988,ff1fc2c6-7b22-485d-92ea-623eddadd988,human,,,none,czech,"Pitomost, děláte si srandu? Kalousek se smál „diplomatu“ Ferjenčíkovi, ten se nedal",,"Pitomost, děláte si srandu? Kalousek se smál „diplomatu“ Ferjenčíkovi, ten se nedal
+11.04.2019 10:26
+Předseda poslaneckého klubu TOP 09 Miroslav Kalousek si na Twitteru rýpl do pirátského poslance Mikuláše Ferjenčíka, jenž psal svůj postřeh ze Slovenska. Následně se rozjela diskuze, kdy se Ferjenčík bránil, že šlo jen o glosu.
+Foto: screen: Twitter M. Kalouska
+Popisek: Miroslav Kalousek (TOP 09)
+reklama
+„Domlouváme na Slovensku společný postup pro vyjednávání rozpočtu EU. Máme shodu: Chceme platit méně, dostávat víc a utrácet jak chceme my. Mezinárodní politika je jednodušší, než si myslíte,“ napsal Ferjenčík na svém Twitteru.„Tohle je naprosto geniální nápad! Chce to jenom maličkost: Najít jiné země, které budou ochotně platit více, dostávat méně a nebudou nám mluvit do toho, co budeme dělat s jejich penězi. Ale to zkušení pirátští diplomaté jistě hravě zvládnou,“ okomentoval celou věc Kalousek. Tohle je naprosto geniální nápad! Chce to jenom maličkost : Najít jiné země, které budou ochotně platit více, dostávat méně a nebudou nám mluvit do toho, co budeme dělat s jejich penězi. Ale to zkušení pirátští diplomaté jistě hravě zvládnou. https://t.co/X4KktzTOn6— Miroslav Kalousek (@kalousekm) 10. dubna 2019„Kdysi jste míval smysl pro humor. Jsem na Slovensku s rozpočtovým výborem a glosuju vládní pozici...“ odvětil Ferjenčík.„Jak mám u vás poznat, co je fór a co ne? Vaše zpochybňování obranných výdajů je mnohem nebezpečnější pitomost a to jste jistě jako humor nemyslel. Nebo ano?“ opáčil Kalousek.Ale Ferjenčík se nedal: „Můžete se mě třeba zeptat, telefon mám na webu. Škoda, že poslední rok raději bojujete s Piráty, než s Babišem.“„Mám pocit, že to pan poslanec myslel ironicky a rádoby vtipně, ale jeden u Pirátů nikdy neví,“ zastal se pak Ferjenčíka jeden z uživatelů. „Myslel,“ odvětil Ferjenčík.
+Líbil se Vám tento článek? Nezávislost naší redakce můžete podpořit peněžitým darem v jakékoliv výši bankovním převodem na účet: 123 - 4175230287/0100 QR kód obsahuje údaje k platbě, výši částky si určete sami.",0,0.023154706,0.97684526
+009ea65d-04bd-4aeb-ac61-0802732bed65,009ea65d-04bd-4aeb-ac61-0802732bed65,a1046000-5236-4174-afe2-21096bf755a1,mpt-chat,sampling,no,none,german,"Jan Josef Liefers: Fragezeichen hinter Kino-""Tatort""","Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Jan Josef Liefers: Fragezeichen hinter Kino-""Tatort"""".","Jan Josef Liefers, der verstorbene Regisseur eines bekannten deutschen Kriminalfilms ""Tatort"", hat das Deutsche Filmfest in Berlino 1999 aufgeschnappt. Die Polizei hatte angeblich eine Fotokopie seines Reisepasses gefunden, aber keine Originalfotos. Die Frage nach dem Ursprung des Falschen begann, aber es ist noch nicht klar, wer ihn geschaffen hat. Liefers Tod wird weiter untersucht, um mögliche Verbindungen zu seinen Filmen und Personen zu ermitteln. Die Welt der Filmproduktion kann gewalttätige Konflikte birgen, daher werden alle Möglichkeiten in Erwägung gezogen, um die Wahrheit zu finden.",1,0.98910517,0.010894775
+40916359-dd82-4c29-a76f-d5c7b10628d3,40916359-dd82-4c29-a76f-d5c7b10628d3,229b10e3-d3cf-45ec-bd2a-30fad294ed20,cohere-chat,sampling,no,none,code,Write a python function to count minimum number of swaps required to convert one binary string to another.,"Write just the Python code solution for the problem ""Write a python function to count minimum number of swaps required to convert one binary string to another."".","def count_swaps(str1, str2):
+    count = 0
+    for i in range(len(str1)):
+        if str1[i] != str2[i]:
+            count += 1
+    return count",1,0.331692,0.66830796
+63a652a1-d308-4139-9d22-e2e5b41f5f40,63a652a1-d308-4139-9d22-e2e5b41f5f40,63a652a1-d308-4139-9d22-e2e5b41f5f40,human,,,none,code,Write a python function to count lower case letters in a given string.,,"def lower_ctr(str):
+      lower_ctr= 0
+      for i in range(len(str)):
+          if str[i] >= 'a' and str[i] <= 'z': lower_ctr += 1     
+      return  lower_ctr",0,0.09842312,0.9015768
+e39b0cfa-20aa-48f8-876f-772ca6d33309,e39b0cfa-20aa-48f8-876f-772ca6d33309,e39b0cfa-20aa-48f8-876f-772ca6d33309,human,,,none,german,Android N: Testversion bekommt erstes Update,,"Bereinigt Performance-Probleme bei einzelnen Geräten – Für einzelne Nexus-GeräteVor einer Woche hat Google die erste Preview von Android N vorgestellt, nun reicht man bereits ein Update nach. Am Donnerstagabend wurde eine neue Testversion der kommenden Betriebssystemgeneration an die Beta-Tester ausgeliefert.
+Auswahl
+Das Update gibt es allerdings nicht für alle unterstützten Geräte sondern nur für Nexus 5X, Nexus 6P und Nexus 9. Auf diesen soll es konkrete Performance-Probleme beheben, die die Tester nach dem Umstieg auf Android N geplagt haben. Die Aktualisierung ist rund 30 MB groß und wurde umgehend an sämtliche Tester ausgeliefert, einen Wellenmechanismus wie bei normalen Android-Updates gibt es im Beta-Program also nicht.
+Regelmäßige Updates
+Das Update kommt insofern überraschend, weil die nächste Preview laut dem aktuellen Zeitplan erst für April angesetzt ist, und Google in den vergangenen Jahren zwischen diesen Terminen keinerlei Softwareaktualisierungen ausgeliefert hat. Insofern ist dies wohl auch als Hinweis darauf zu sehen, dass man heuer das Beta-Programm aktiver gestalten will als in den letzten Jahren. (apo, 18.3.2016) Nachlese
+Android N: Die nächste Softwaregeneration unter der Lupe",0,0.84669286,0.15330707
+c3682bc6-f0c7-4bc6-ba1c-14f2dbea2a31,c3682bc6-f0c7-4bc6-ba1c-14f2dbea2a31,8ee7e54b-d778-46ae-883a-ad1a8a927da7,mpt,sampling,no,none,czech,Špatně fungující stát je špatný hospodář,"Následuje článek s názvem ""Špatně fungující stát je špatný hospodář"":","""Účetní zpětně dává číslo do špatného fungování [spojit] zájmy vůči průměrně špatném způsobu výpočtu úětiny čítače.""
+
+Ne všichni mají stejnou povahu. Získejte-li zařízení, vše vyžaduje, aby pojmenoval výkon aplikace za účelem jejich času. Výkon je vzácné sestavy. Zpětného volání a spodní části doplňku nejsou zdarma. To je může být trénované vytváření, napsaním kódu většina času, pokud to potřebujete. Přesně tak, jak je třeba věc, zde se ztratí nejednoznačnosti.
+
+[Výkonu a odolnosti vaší aplikace:](https://docs.microsoft.com/dotnet/standard/performance-and-scalability/)
+[Síťové oprávnění](https://channel9.msdn.com/Events/aspConf/aspConf/azure-and-aspnet-core-performance-network)
+
+>[!div class=""step-by-step""]
+>[Předchozí](../implement-resilient-applications/monitor-app-health.md) 
+> [Další](monitor-container-cpu-memory-usage.md)",1,0.23550634,0.7644937
+3b346bf3-817a-4ca2-af45-3f38d42619b4,3b346bf3-817a-4ca2-af45-3f38d42619b4,5ce4a01c-8c29-4a2c-8e9d-22f81aea51e0,mpt-chat,sampling,yes,none,german,Erbschaftssteuer: Volksabstimmung in Schweiz gestartet,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Erbschaftssteuer: Volksabstimmung in Schweiz gestartet"".","Die Einführung von Erbschaftssteuern ist zum Referenzzitat geworden, wenn es um Vermögens- und Schenkungssteuer reformiert wird. Am Donnerstag hatten die Abgeordneten aus der Nationalratssitzung eine Minderheitsentscheidungen dazu geholt (88 Nein contre 94 Oui). Die Gesetzgebung ließ das Landesgesetz über ertagswirtschaftliche Unterschiede einschließen. Durch Bindung an den EU Überblick konzentriert sich NZZ am Samstagmorgen auf einmalig verbrauchtes Wachszahlwerk für Zwecke aller Art sowie Verkehsverhältnisse regeln oder zurückfahren lassen zu müssen – nachdem Aussendienstplatz abzugeben war fanden sie heute niederländische Gegenproposition im Bundesarbeitsgericht vorlagen wobei unser Kundenservice Telefonnummer diesem Tages Anhang findigt erhalten haben soll was gütiger Bestandteil des Betriebsdrucks sein kann weitestgehend zugunsten seiner Absender innerparteilicher Lieferant lautete Einbindung solcher Datenteile bedarf also eines besonderen Gründes nicht später als 2022 stattfindenden Urneigenschränkt zeigen so große Unternehmen mehrheitlich positiv darauf reagieren mag aber gleichbehaupt welchen Umstiegskurs man bereits selbst ergreift hat macht keinen Sinn da Klage begründet sei infolge Mangel begleiteter Postbriefmarke doch scheint auch hier schon Lösung parat alleine obgleich bundesobersten Organ immer noch keine Position bekanntzumachen verspäteten Renntempo ihrerseits vorerst Schranke setzt genau wie bisher bei Immobilientransaktionen möglich werden will nur dass jetzt bis maximal 250000",1,0.08103159,0.9189684
+1e33177b-fa8f-404d-9fda-fd4060130f25,1e33177b-fa8f-404d-9fda-fd4060130f25,410a8642-64f4-4391-8b2a-863aa9194803,mpt,sampling,no,none,czech,Poslední štace Blesk Ordinace na pražském Karlově náměstí: Stometrové fronty na vyšetření. Nevadil ani abnormální hic!,"Následuje článek s názvem ""Poslední štace Blesk Ordinace na pražském Karlově náměstí: Stometrové fronty na vyšetření. Nevadil ani abnormální hic!"":","České slovo
+
+Zpravodajský týdeník aktivistů a fanúšků
+
+Časopis se vydal v předstihu zápisu Hana Kouřilová a Michala Přimda.
+
+Nadpis: ""Poslední štáce Bleskové ordinace na pražském Karlově náměstí: Stometrové fronty na vyšetření. Nevadil ani abnormální hic!""
+
+Název dospívajícího kola: ""Podloktní prohlášení""
+
+Odkud to je: ""Příspěvek zakládá v předchozí návštěvě p. B. území národního prostoru: Upozornění pro prahu pódního vzduchu.""
+
+""Občanské společenství kampanii podpořené náměstkem Blesk: Máte věru? Natočíte se do prohlášení č. 2!"" (měli by si je na náměstí přejmenovat)
+
+""Místní obklopení Bleskové ordinace dnes se dívali na výsledky akce, která se uskutečnil v národním prostoru ve čtvrti Karlových vinohrad v pondělí k některými z podmínků městského pravidel a prohlášení č. 2 o bezpečném ne-vzdálení. Příspěvek, zakládající v předchozí návštívce p. B. prahu prvn",1,0.10425445,0.8957456
+d6aed483-74a2-433a-acd6-b6f28d3d35f6,d6aed483-74a2-433a-acd6-b6f28d3d35f6,4e102dff-34fc-4c24-857c-269c8882504b,llama-chat,sampling,yes,none,german,Österreichische Soldaten auf Erkundungsmission in Mazedonien,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Österreichische Soldaten auf Erkundungsmission in Mazedonien"".","Vienna, Austria - A group of Austrian soldiers has embarked on an exploratory mission to the Republic of Macedonia, a country located in the heart of the Balkans. The mission, which began yesterday, is aimed at strengthening bilateral relations between the two countries and promoting regional stability.
+
+The team of soldiers, led by Captain Markus Steinmann, consists of experts from various fields such as diplomacy, international law, and military operations. They will spend several days meeting with government officials, civil society representatives, and military leaders in Skopje, the capital city of Macedonia.
+
+According to a statement issued by the Austrian Ministry of Defense, the mission's primary objective is to gather information on the current security situation in Macedonia and identify potential areas for cooperation between the two countries. The delegation will also visit several sites in the country, including refugee camps and borders crossings, to gain a deeper understanding of the region's complex challenges.
+
+Macedonia, a former Yugoslav republic, has faced numerous security concerns in recent years, including a border dispute with neighboring Greece and the influx of migrants and refugees from the Middle East and North Africa. The country has also struggled with political instability and economic difficulties.
+
+Austria, which shares a border with Macedonia, has been actively engaged in efforts to promote peace and stability in the region. In addition to providing humanitarian aid and supporting economic development projects, Austria has contributed troops to NATO's peacekeeping mission in Kosovo, a province that declared independence from Serbia in 2008.
+
+Captain Steinmann expressed optimism about the mission's prospects, saying, ""We are eager to learn more about the security landscape in Macedonia and explore ways in which we can support our friends and allies in the region."" He added, ""This mission represents a significant step forward in our commitment to fostering greater collaboration and coordination among nations in the Balkans.""
+
+The Austrian solders are expected to return home next week, following a series of debriefings and meetings with their Macedonian counterparts. Their",1,0.0005525095,0.9994475
+6e47bcce-76ea-45ad-993a-cd160bfc3987,6e47bcce-76ea-45ad-993a-cd160bfc3987,6e47bcce-76ea-45ad-993a-cd160bfc3987,human,,,none,czech,Budoucnost biopaliv v EU,,"Budoucnost biopaliv v EU Petr Patočka, Bára Urbanová
+Nikdo zřejmě neočekává, že bychom do budoucna biopaliva v dopravě nevyužívali. Přesto se nad jejich vyhlídkami vznáší řada otazníků.
+Zatímco klimaticko-energetický rámec pro rok 2020 vytyčoval zvláštní cíl pro obnovitelné zdroje v dopravě (10 % paliv v dopravě musí pocházet z obnovitelných zdrojů, což je zajišťováno výhradně díky biopalivům), v obdobném rámci pro rok 2030 jej nenajdeme. Dočteme se pouze, že podíl obnovitelných zdrojů obecně má v EU tvořit 27 % a že Evropská komise by se rolí obnovitelných zdrojů v dopravě po roce 2020 měla zabývat. Příčinou jisté „zpátečky“ Bruselu je mimo jiné fakt, že biopaliva mají značně negativní dopad na ceny a dostupnost potravin ve třetích zemích a současně často nejsou tak ekologická, jak se mnozí zpočátku domnívali. Diskutují se především tzv. nepřímé emise skleníkových plynů, tedy emise vznikající při přeměně půdy na zemědělskou například odlesňováním rozsáhlých území, které pak ovlivňují celkovou bilanci dovážených biopaliv.Evropská unie proto navrhuje nastavit maximální cíl pro biopaliva vyráběná z potravinových komodit pro rok 2020 na úrovni 7 % a postupně přejít od podpory konvenčních biopaliv (založených na potravinových komoditách) k podpoře pokročilých biopaliv (využívajících odpadní biomasu, celé rostliny, dřeviny, zbytky a odpady).
+↗
+Vedle diskutované elektrifikace se jako nadějné jeví využívat do budoucna více zemního plynu a bioplynu. Foto en.wikipedia.org Zde však naráží na odpor řady členských států, neboť technologie pro pokročilá biopaliva jsou stále jen ve zkušebním provozu a například v ČR momentálně žádné zařízení, které by je umělo ve větší míře vyrábět, nestojí. Nejistota ohledně dlouhodobé strategie v oblasti biopaliv přirozeně vyvolává velkou nedůvěru výrobců i investorů do výroby pokročilých biopaliv.Otázky se také vznášejí nad dostupností suroviny. Zatímco konvenční biopaliva konkurovala pěstování potravin, pokročilá biopaliva mohou konkurenci přenést do odvětví zpracovávající biomasu za účelem výroby elektřiny a tepla. A nejen to, způsobů využití odpadní slámy, štěpky a dalších zbytků je celá řada. Odborníci se shodují, že chybí komplexní studie, která by porovnávala, jaký způsob využití dostupné biomasy z hlediska energetické efektivity a ekonomické návratnosti je nejlepší. Využití biomasy na výrobu biopaliv pro dopravu se z hlediska energetické efektivity jeví jako nejhorší.Jak tedy ozelenit dopravu, sektor, který se na globálních emisích skleníkových plynů podílí z přibližně jedné třetiny? Vedle diskutované elektrifikace se jako nadějné jeví využívat do budoucna více zemního plynu a bioplynu. Vhodný je zejména pro autobusy městské hromadné dopravy.V této souvislosti je dobré zmínit Švédsko, které již od 90. let šlo cestou uvalení uhlíkové daně na fosilní paliva v dopravě, čímž docílilo razantního rozvoje energetiky postavené na biomase. Bioplyn má ve Švédsku dlouhou tradici, již mnoho let je vyráběn v čistírnách odpadních vod a v kofermentačních bioplynových stanicích, které využívají nejrůznější organické materiály a suroviny. Švédové nedávno svůj cíl ještě zpřísnili, když se rozhodli zbavit se do roku 2030 všech aut spalujících fosilní paliva.Jakým způsobem bude nakonec cíl pro biopaliva v EU pro rok 2020 upraven a zda můžeme očekávat harmonizovanou legislativu i pro další desetiletí, se dozvíme začátkem příštího roku.
+Jisté je však už nyní, že biopaliva vyráběná z potravinových komodit nebudou mít již takovou podporu jako doposud.",0,0.06712174,0.93287826
+9dcacc73-f215-4d12-9e83-e9442ce0c22e,9dcacc73-f215-4d12-9e83-e9442ce0c22e,18037483-d74d-48e7-b57b-e5ad34331998,mistral-chat,greedy,no,none,german,Quotenregelung für österreichische Regisseurinnen?,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Quotenregelung für österreichische Regisseurinnen?"".","Quotenregelung für österreichische Regisseurinnen?
+
+Die österreichische Filmindustrie ist seit Jahren bemüht, die Unter- und Überrepräsentation von Frauen in der Regieposition zu verbessern. Die aktuelle Diskussion geht darauf hin, eine Quotenregelung einzuführen, um dieses Ziel zu erreichen.
+
+Die Quotenregelung würde dazu dienen, die Anzahl von Regisseurinnen in österreichischen Film- und Fernsehproduktionen zu steigern. Die Regelung könnte beispielsweise darauf hinweisen, dass mindestens 30% der Regisseurinnen in österreichischen Produktionen müssen sein.
+
+Die Diskussion um eine Quotenregelung für österreichische Regisseurinnen ist nicht neu. In den letzten Jahren haben sich viele Stimmen für eine solche Regelung gemeldet, um die Unter- und Überrepräsentation von Frauen in der Regieposition zu verbessern.
+
+Die österreichische Filmindustrie hat sich bereits zu diesem Thema geäußert. Die österreichische Filmakademie hat eine Quotenregelung für Frauen in der Regieposition vorgeschlagen, die die Anzahl von Frauen in österreichischen Produktionen steigern soll.
+
+Die Regelung würde dazu dienen, die Anzahl von Regisseurinnen in österreichischen Produktionen zu steigern. Die Regelung könnte beispielsweise darauf hinweisen, dass mindestens 30% der Regisseurinnen in österreichischen Produktionen müssen sein.
+
+Die Diskussion um eine Quotenregelung für österreichische Regisseurinnen ist nicht neu. In den letzten Jahren haben sich viele Stimmen für eine solche Regelung gemeldet, um die Unter- und Überrepräsentation von Frauen in der Regieposition zu verbessern.
+
+Die österreichische Filmindustrie hat sich",1,0.0015315507,0.99846846
+769e95c1-78f3-4777-8541-b5e88ff3a86f,769e95c1-78f3-4777-8541-b5e88ff3a86f,769e95c1-78f3-4777-8541-b5e88ff3a86f,human,,,none,german,"Erstes Licht für Instrument, das das Schwarze Loch im Milchstraßenzentrum untersucht",,"GRAVITY kombiniert das Licht von mehreren Teleskopen – gleich beim Debüt gelang eine erste EntdeckungHeidelberg – ""Erstes Licht"" nennen Astronomen den feierlichen Augenblick, wenn ein Instrument die Arbeit aufnimmt und zum ersten Mal das Licht eines anderen Himmelskörpers empfängt. Für das GRAVITY-Instrument am Very Large Telescope der Europäischen Südsternwarte (ESO) war es nun soweit, wie das Max-Planck-Institut für Astronomie berichtet.
+Um ein virtuelles Teleskop mit bis zu 200 Metern Durchmesser zu bilden, kombiniert GRAVITY über Interferometrie das Licht von mehreren Teleskopen. Diese Technik ermöglicht es Astronomen, viel feinere Details in astronomischen Objekten zu erkennen, als es mit einem einzigen Teleskop möglich wäre.
+Seit dem Sommer 2015 hat ein internationales Team aus Astronomen und Ingenieuren GRAVITY in speziell angepassten Tunneln unter dem Very Large Telescope der ESO am Paranal-Observatorium im Norden Chiles montiert. Dies ist zwar erst die erste Phase der Inbetriebnahme von GRAVITY, doch hat das Instrument bereits erfolgreich das Sternlicht von den vier VLT-Hilfsteleskopen vereint.
+Das Hauptaugenmerk
+Insbesondere soll GRAVITY künftig untersuchen, was in dem extrem starken Gravitationsfeld nahe dem Ereignishorizont des supermassereichen Schwarzen Lochs im Zentrum der Milchstraße passiert – daher auch der Name des Instruments. Außerdem soll es Details des Massenzuwachses und Jets erkennen: Prozesse, die beide in der Nähe neugeborener Sterne und in Regionen um supermassereiche Schwarze Löcher in den Zentren anderer Galaxien auftreten. (red, 13. 1. 2016) ",0,0.068105824,0.93189424
+3c119deb-f1ae-48ea-951f-55dca2572483,3c119deb-f1ae-48ea-951f-55dca2572483,3c119deb-f1ae-48ea-951f-55dca2572483,human,,,none,czech,Generál Wesley Clark vyzývá k odchodu z Afghánistánu,,"Generál Wesley Clark vyzývá k odchodu z Afghánistánu
+Raw Story Listopad 18, 2009   Generál ve výslužbě Wesley Clark ? bývalý demokratický kandidát na amerického presidenta –řekl  toto úterý v Kongresu v málo veřejně známých postřezích, že by Spojené státy měly začít plánovat odchod z Afhgánistánu, čímž se dostal do kontroverze se současným velitelem afghánské mise generálem Stanley McChrystalem.   Bývalý vrchní velitel amerických sil v Evropě upozornil Kongres na „odkaz Vietnamu“ při hodnocení americké strategie v Afghánitstánu. Obamovi velitelé volají po zvýšení stavu vojáků až na 60 tisíc v této válkou sužované zemi.   „Musíme si rozmyslet, co uděláme,“  řekl Clark při slyšení před kongresovým Podvýborem pro ozbrojené síly. „Jak se odtamtud máme dostat? Naše tamní dlouhodobá přítomnost totiž není dobrou věcí. Nahráváme jí do rukou lidem, kteří nemají rádi cizince v zemi, která netoleruje rozmanitost. A to nezměníme.“   Clark naléhal na Kongres, aby začal připravovat strategii pro odchod ze země. Řekl, že Spojené státy by měly posílit své vztahy s Pákistánem a pracovat s pákistánskou vládou s cílem zasáhnout Al-Káidu, a přitom snižovat svoje angažmá v sousedním Afghánistánu. Poukázal také na to, že hospodářský rozvoj Afghánistánu byl důležitý.   Pokud Spojené státy navýší počty svých vojáků v Afghánistánu, řekl, Clark, měla by být preferována strategie vedoucí k odchodu z této země.   „Nad všemi těmito diskusemi se vznáší dědictví Vietnamu,“ řekl Clark, „a pro mne je mimořádně bolestivé, když vidím, kam jsme to dopracovali v Afghánistánu.“   Clark velel během vietnamské války dělostřeleckému oddílu, byl čtyřikrát postřelen. Byl odměněn vyznamenáním Silver Star za své bojové zásluhy.   Penzionovaný generál řekl, že dává přednost „minimalistickému přístupu“, jenž by měl rozvrátit afghánský terorismus, čemuž někteří Demokraté, včetně vicepresidenta Joe Bidena oponovali. Biden trval na tom, že by Spojené státy měly své vojenské angažmá v Afghánistánu koncentrovat a zaměřit na Talibán místo toho, aby podněcovali boj s Al-Káidou   Demokratický člen výboru kritizoval Clarkův přístup, přičemž řekl, že zaměření na přestavbu Afghánistánu je podobné cílům bývalého vicepresidenta Dicka Cheneyho v Iráku.   Clark odpověděl: „Nejsem si jistý, co bylo podstatou Cheneyho řešení pro Irák, ale já sám se s ním nemohu ztotožnit.“   „Prvotním problémem,“ řekl Clark, „je opravdu správné uskutečnění té strategie.“   Převzato z Prison Planet Foto: zdroj
+0 0 hlasy",0,0.032733373,0.9672666
+994c8103-1f84-4bb0-aa0e-17a9f8e6a776,994c8103-1f84-4bb0-aa0e-17a9f8e6a776,994c8103-1f84-4bb0-aa0e-17a9f8e6a776,human,,,none,german,Paszek trennt sich von Coach Passos,,"""Zeit für etwas Neues"" – Finanzierungsfrage dürfte eine Rolle gespielt habenDornbirn – Tamira Paszek hat sich von ihrem brasilianischen Starcoach Larri Passos getrennt. Was die 25-Jährige nun gegenüber tennisnet.com bekanntgegeben hat, vollzog sich bereits nach den Generali Open in Linz im Oktober.
+""Linz war für Larri und mich das letzte gemeinsame Turnier. Wir haben dort unsere Zusammenarbeit im Guten beendet"", sagte Paszek. ""Es war für uns beide Zeit für etwas Neues."" Ein Mitgrund dürfte wohl auch die Finanzierung gewesen sein. Paszek hatte in Linz angedeutet, dass sie in den vergangenen beiden Jahren sehr wenig verdient hat.
+Paszek absolviert derzeit in ihrer Heimatstadt Dornbirn mit dem Sportservice Vorarlberg ihr Fitnessprogramm, Tennis trainiert sie am Campus Dornbirn. Der Ex-ATP-Profi Andrei Pavel, der auch ihr privater Begleiter ist, wird für zwei Wochen zur Vorbereitung stoßen. Der Saisonstart soll entweder in Auckland oder Brisbane erfolgen, danach steht die Qualifikation bei den Australian Open auf dem Programm. (APA/red, 8.12. 2015) ",0,0.6715815,0.32841846
+d15b11a2-a340-4aa6-b8c1-b0cb61eed48a,d15b11a2-a340-4aa6-b8c1-b0cb61eed48a,d15b11a2-a340-4aa6-b8c1-b0cb61eed48a,human,,,none,german,"""The Revenant"" an der Spitze der US-Kinocharts",,"Das Überlebensdrama mit Leonardo DiCaprio überholte die Fortsetzung von ""Ride Along"".Washington – Das für zwölf Oscars nominierte Überlebensdrama ""The Revenant – Der Rückkehrer"" hat sich trotz des Wintersturms an der US-Ostküste an die Spitze der nordamerikanischen Kinocharts gesetzt. Mit einem Umsatz von rund 16 Millionen Dollar (14,8 Mio. Euro) über das Wochenende in den USA und Kanada überholte der Thriller mit Leonardo DiCaprio die Fortsetzung von ""Ride Along"".
+Die Komödie fiel dem Branchendienst Box Office Mojo zufolge auf den dritten, ""Star Wars"" kletterte zurück auf den zweiten Platz. Wegen des schweren Wintersturms hatten Hunderte Kinos im Nordosten schließen müssen, darunter auch in New York, das dem ""Hollywood Reporter"" zufolge mehr als sieben Prozent des Kino-Umsatzes ausmacht. Gouverneur Andrew Cuomo hatte am Samstag ein Fahrverbot verhängt.
+In der Hauptstadt Washington sowie in Baltimore und Philadelphia sollten die Kinos wegen der Aufräumarbeiten auch am Sonntag geschlossen bleiben. Der Blizzard könnte die Branche Schätzungen zufolge etwa zwölf Prozent des Umsatzes gekostet haben. Auch der Umsatz für ""The Revenant"" fiel geringer aus als von manchen Experten erwartet. (APA, 25.1.2016) ",0,0.98289686,0.017103113
+1652409d-cfec-4c80-8884-e38049ed1d29,1652409d-cfec-4c80-8884-e38049ed1d29,1652409d-cfec-4c80-8884-e38049ed1d29,human,,,none,czech,"Babišův Komárek popsal, jak se k sobě chovají lidé ve sněmovně",,"© OUR MEDIA a.s.. 2009-2021
+
+Provozuje OUR MEDIA a.s., IČ: 28876890, DIČ: CZ28876890, společnost vedená u Městského soudu v Praze pod spisovou značkou B 15201
+
+
+
+74,925 % podíl ve společnosti OUR MEDIA a.s. vlastní společnost SYNOT INVEST LIMITED podnikatele a bývalého senátora Iva Valenty. Dalšími vlastníky společnosti OUR MEDIA a.s. jsou Michal Voráček, Jan Holoubek a Jiří Čermák.
+
+
+
+OUR MEDIA a.s. byla v minulosti vydavatelem tištěného časopisu Parlamentní listy (nicméně nikdy nepoužívala logo PS PČR, jak nepravdivě uvádějí některé zdroje)
+
+
+
+Jakékoliv užití obsahu včetně převzetí, šíření či dalšího zpřístupňování článků, fotografií či jiného obsahu je bez předcházejícího písemného souhlasu OUR MEDIA a.s. zakázáno.",0,0.8600638,0.13993621
+82e909ec-b573-4323-bcaa-aeefd1014b9b,82e909ec-b573-4323-bcaa-aeefd1014b9b,90a08254-3aea-4744-82fc-0b642edff436,chatgpt,sampling,no,none,czech,"Pokud se neotevřou hospody, najedu do lidí, hrozil muž. Dostal podmínku","Napiš text článku, který má nadpis ""Pokud se neotevřou hospody, najedu do lidí, hrozil muž. Dostal podmínku"".","Pokud se neotevřou hospody, najedu do lidí, hrozil muž. Dostal podmínku.
+
+Praha - Řidič, který hrozil, že v případě neotevření restaurací zajede do davu lidí, byl odsouzen k podmíněnému trestu. Muž byl obviněn z výhrůžného chování a ohrožování veřejného pořádku.
+
+Incident se odehrál v předvečer opětovného otevření restaurací a barů po pandemických opatřeních. Muž si vypůjčil autobus a pomocí reproduktorů vyhrožoval, že pokud se hospody neotevřou, najede do lidí.
+
+Věc byla nahlášena policii, která rychle zasáhla a muže zadržela. Při vyšetřování se zjistilo, že muž byl pod vlivem alkoholu. Při prohlídce autobusu bylo nalezeno i několik lahví alkoholu.
+
+Soud rozhodl, že muž je vinen a uložil mu podmíněný trest. Muž také musí absolvovat léčebný program pro osoby závislé na alkoholu. Soud také dal najevo, že takové výhrůžné chování je nepřijatelné a nemá v místech veřejného shromažďování místo.
+
+Policie ve svém vyjádření zdůraznila, že takové výhrůžky jsou nebezpečné a nebudou tolerovány. Veřejnost si musí být vědoma, že takové jednání může mít vážné následky a je nutné ho ihned ohlásit policii.
+
+Restaurace a bary byly uzavřeny po dobu několika měsíců kv",1,0.019173061,0.980827
+42c2491b-a209-4b82-a6f8-844c25001391,42c2491b-a209-4b82-a6f8-844c25001391,2c40ee58-1c17-4c20-bc30-729310d99406,mpt-chat,sampling,yes,none,german,BMW-Chef: Autobranche kann von Internet-Konzernen lernen,"Schreiben Sie einen Nachrichtenartikel mit dem Titel ""BMW-Chef: Autobranche kann von Internet-Konzernen lernen"".","Der Chef des deutschen Kraftwerksherstellers BMW, Harald Krüger, sagte in einer Pressekonferenz am Donnerstag, dass die Automobilbranche durch das Wachstum von Internethandelspartnern wie Amazon und Google geeint würde. 
+""Die Konkurrenz hat uns gelehrt"", erklärte Krüger nachdem der Verkauf von BMWs neuer Elektroautoreihe auf Amazon begonnen hatte."" Wir müssen schneller arbeiten als früher, besser denken und ausweichen."" Die Zusammenarbeit mit Online-Handelsgiganten hilft der Branchen modernisieren zu helfen, fügte er bei seiner Rede an. 
+Mit neu registrierten Firmenplätzen im Bereich E-Commerce wird sich der Verkaufsprozess für Autohersteller verändert zeigen - eine Entwicklung, über die auch andere Industrien studieren sollten. Mit einem stetigen Anstieg zukünftiger Möglichkeiten werden sie immer mehr davon profitieren. Krüger hingegen ist nicht besorgt darüber, ob dies negativ auf kleinerer oder mittelgroßer Größe auframmeln könnte.'Es gibt große Herausforderungen', bestätigt Er, 'aber wenn man davor zurücktritt stattdessen etwas Neues entdeckend'. 
+
+In Deutschland sollen pro Jahr rund 600000 Elektroautos produziert werden 2025 andersrum 1 Million Einheiten. Um diese gesetzlich vorgegebene Marge einzuhalten setzt Toyota bereits auf massiven Abbau chemischer Antriebe sowie weiteres Know How spätestens bis Ende dieser Jahreshälfte um. Es herrscht allerdings noch relativ hohes Misstrauen gegenuber elektrischen Fahrzeugen; damit möchte Audi nun kämpfen. Unterdessen findest du ab sofort un",1,0.9602066,0.039793327
+ff77cdeb-3891-43ba-ab1d-d072b0176e7a,ff77cdeb-3891-43ba-ab1d-d072b0176e7a,ff77cdeb-3891-43ba-ab1d-d072b0176e7a,human,,,none,czech,Polská opozice třetí den protestuje v Sejmu,,"Polská opozice třetí den protestuje v Sejmu08:23 19.12.2016 © Foto : Upload Ministry of Foreign Affairs of the Republic of PolandPolský sejm© Foto : Upload Ministry of Foreign Affairs of the Republic of PolandSledujte nás naPoslanci za polské opoziční strany třetí den brání parlamentu v činnosti: politici neodcházejí z budovy Sejmu, přerušili zasedání, zatímco jejich stoupenci nepřetržitě protestují před parlamentní budovou.Podle plánu opozice mají tyto protesty trvat do 20. prosince, v tento den se má totiž konat zasedání senátu a poslanci počítají s tím, že se opětovně sejde také celý parlament. Podle mínění opozičníků byla zasedání a hlasování, jež se v pátek večer konala bez části poslanců a v nepřizpůsobené na to místnosti, nelegitimní.Otázku nového hlasování projednali vůdci opozičních stran, Občanské platformy, Polské rolnické strany, Kukiz'15 a Nowoczesna v neděli s prezidentem Andrzejem Dudou, který zahrál úlohu zprostředkovatele mezi vládnoucí stranou a jejími odpůrci.V pondělí se má rovněž konat schůzka předsedy senátu Stanislawa Karczewského s parlamentními novináři. Omezení jejich činnosti se stalo důvodem událostí v Sejmu a dalších protestních akcí za účasti tisíců lidí.",0,0.004259232,0.9957408
+fa1de7a0-0428-4eab-a807-47427d3a3b49,fa1de7a0-0428-4eab-a807-47427d3a3b49,fa1de7a0-0428-4eab-a807-47427d3a3b49,human,,,none,czech,Ron Paul: Pachatelé finanční katastrofy by měli být uvězněni,,"Ron Paul: Pachatelé finanční katastrofy by měli být uvězněni
+Texaský kongresman Ron Paul říká, že lidé zodpovědní za ekonomickou krizi by neměli být vítáni jako spasitelé a nemělo by jim být dáváno více moci, aby napravovali problémy, které oni sami vytvořili, ale měli by být zatčeni a stíháni jako zločinci. Ron Paul v pořadu Alexe Jonese také řekl, že jediný způsob, jak by se soukromý FED mohl dostat pod kontrolu, je lidové povstání. Poznamenal, že i ve Washingtonu si už mnohem více uvědomují, jaký má FED podíl na ekonomické krizi. Kongresman předloží Kongresu dva zákony, první navrhne úplné zrušení FEDu, druhý audit této organizace. „Dnes jsou chráněni, jsou v naprostém utajení a krytí zákonem – pokud bude můj návrh přijat, uděláme audit a oni budou muset odpovědět na naše otázky. Počítám s tím, že když to dostaneme tak daleko, posvítíme si na ně a uděláme si jasno, což potřebujeme, aby se lidé probudili a uvědomili si, proč to všechno děláme,“ řekl Paul. Paulův návrh zákona na audit FEDu je podobný jinému zákonu, který byl předložen Bernie Sandersem v Senátu, jenž směřuje k tomu, aby FED odpověděl na otázky zaměřené na to, kam se poděly 2 biliony dolarů z vládní pomoci, což je věc, v níž Bloomberg News žalovaly FED a požadují její vyšetření a vysvětlení. Minulý týden se totiž v rozpočtovém výboru Senátu děly nevídané věci, když Bernanke arogantně odmítl vysvětlit, kam se poděly peníze z vládní pomoci, a to i přes opakované otázky Sanderse. Když se Paula ptali, jestli by lidem, kteří způsobili ekonomickou katastrofu, mělo být důvěřováno jako spasitelům, nebo by měli být stíháni jako zločinci, odpověděl: „Měli bychom mít minimální vládu, ale i v tomto případě se předpokládá, že se její orgány zabývají krádežemi, fyzickým násilím a podvody, a to je přesně to, co zanedbávají a kryjí … je strašné, že to dělají … a tito lidé by měli být trestně stíháni, tito lidé by měli být ve vězení. Texaský kongresman také diskutoval o Obamově peněžní politice, přičemž poznamenal, že pokaždé, když bylo oznámeno nové vládní opatření s cílem zachránit ekonomiku, finanční trhy klesaly ke dnu. „Přestože si mnoho lidí myslí, že trhy nevědí, o co jde, trhy jsou velmi chytré, takže to, že nereagují, a to navzdory tomu, jak to vláda cpe všem do hlavy, pokaždé když vláda přijde s novým programem, trhy jdou dolů ještě více,“ řekl Paul, a poznamenal, že obhájci volného trhu měli pravdu, když varovali, že problémy, které ještě začnou, budou vyřešeny pouze tak, že proběhne bankrot. Když se Paula zeptali, jak špatná je hospodářská situace, odpověděl: „Myslím, že se to protáhne, nevidím žádné dno, od kterého bychom se mohli odrazit, trhy se mohou vrátit k vzestupu a tak podobně, ale očekávám, že obrat by mohl trvat stejně tak dlouho jako v třicátých letech,“ a dodal, že minulá deprese neskončila dříve než s koncem druhé světové války. „Myslím, že to bude trvat velmi dlouho, a navíc žijeme ve velkém nebezpečí, protože lidé jsou mnohem více nároční, věří, že mají právo na majetek svých sousedů a z toho může vzniknout náchylnost k násilí … nakonec to může zničit dolar,“ řekl kongresman, a doplnil, že jedině rychlé řešení krize by neohrožovalo ústavní základy státu.Překlad: StanZdroj: www.infowars.com
+0 0 hlasy",0,0.1589202,0.84107983
+e16eaa7d-8d52-4932-8766-9677d82509fa,e16eaa7d-8d52-4932-8766-9677d82509fa,e16eaa7d-8d52-4932-8766-9677d82509fa,human,,,none,czech,Poslanci opět odložili zákon o evidenci majitelů. Benešová nepřišla,,"Poslanci měli v pátek ráno hned po zahájení schůze ve třetím čtení projednat zákon o evidenci skutečných majitelů. Původní ministerský návrh zahrnoval výjimku týkající se svěřenských fondů. Podle ní by předseda vlády Andrej Babiš (ANO) neměl oficiálně nic společného se svými firmami, které do svěřenských fondů kvůli své funkci vložil.
+
+Avšak díky hlasům ČSSD a KSČM by měl projít jeden z jeho pozměňovacích návrhů, podle něhož by Andrej Babiš byl veden jako jeden z vlastníků Agrofertu. Poslanci se však ráno k projednání zákona nedostali z prostého důvodu. Do Sněmovny nedorazila jeho předkladatelka, ministryně spravedlnosti Marie Benešová (za ANO). Zákon místo ní měl jako pověřená osoba odprezentovat vicepremiér Karel Havlíček (za ANO). Benešová mezi poslance nepřišla proto, že dopoledne seděla ve výběrové komisi.
+
+To se nelíbilo opozici. „Nechápu, proč vláda pověřuje ministra průmyslu a obchodu a ministra dopravy. My máme hodně otázek na předkladatele tohoto zákona, kterým je ministerstvo spravedlnosti. Jestliže předkládáte nějaký zákon, měl by tady být jeho předkladatel. Tohle je klasická ukázka toho, že ministři české vlády nechodí do práce,“ rozčílil se šéf poslaneckého klubu SPD Radim Fiala.
+
+Projednání tohoto pro opozici důležitého zákona se neposouvalo poprvé. „Paní ministryně požádala o vyřazení tisku z programu schůze původně z důvodu, že jela na dovolenou. To jsme nepřipustili, místo toho jsme ho zařadili na jiný termín. A teď zjistíme, že v tom termínu sedí na výběrové komisi. Nezlobte se na mě, ale to skutečně vypadá jako obstrukce při schvalování vládních návrhů,“ řekl předseda poslaneckého klubu Pirátů Jakub Michálek, který navrhl, že pokud ministryně během pátku do Sněmovny nedorazí, měli by poslanci k zákonu svolat mimořádnou schůzi.",0,0.011229503,0.9887705
+a3817fa4-82a4-4d73-aa95-e4e0f0c4ab5c,a3817fa4-82a4-4d73-aa95-e4e0f0c4ab5c,080da32e-e65d-483d-b7ac-0b213bee8a89,cohere,sampling,no,none,german,Bei Amazon wird wieder gestreikt,"Es folgt ein Nachrichtenartikel mit dem Titel ""Bei Amazon wird wieder gestreikt"":"," Von Pascal Bruckner, Linzer Oberlausitz Zeitung
+
+Der Bergarbeiterstreik in Brasilien löst nach langer Signalerkuppelung am Montag (29.11.21) erstmalsreaktionsbelastete Wirtschaftsaktivitäten der Grünen Klasse aus. In wenigen Stunden wird der vergangene Wochenende bei Amazon ein Knickpunkt gewesen sein, der für die Unternehmen und die Weltwirtschaft erhebliche Auswirkungen auf sich hätte haben. Nachrichten zu den Auswirkungen des Bergarbeiterstreiks in Brasilien: 
+
+Weltwirtschaftsnachrichten: Brasilien droht der „Wirtschaftszusammenbruch“
+
+Amazon warfare vor der offenen Decke. In wenigen Stunden begann der vergangene Wochenende der Massenstreik, der durch die Gewerkschaftsorganisation CGTP zusammengestrzt wurde, und der um die Arbeiterrechte der Branntweinarbeiter und -arbeiterinnen vor dem Hintergrund der durch das Coronavirus erhaltenen Einsatzleistungen und des wirtschaftlichen Aufschieben der Lohneinzahlung, veranschaulicht. Das ist ein Streik, der in seiner Ausdehnung und Auswirkung von der weltweiten Presse, Verwaltung und Wirtschaft wichtig ist – und das alles in einer Welt, die von einer sich wiederholenden Pandemie begeistert, die our von einer sich wiederholenden Wirtschaftskrise nicht mehr abschwindet. 
+
+Brasilien droht der „Wirtschaftszusammenbruch“ 
+Sie werden nicht selbst betroffen sein, aber ihr Geschäft ist von der Lage in Brasilien betroffen – einzigartig genug, um Sie zu betonen, dass es Zeit ist, sich auf diesen Nachschub zu spekulieren. Es ist Zeit, Ihre Geschäfte von der",1,0.0240654,0.9759346
+060e143d-2534-4aea-93e7-123a7c8d3ad7,060e143d-2534-4aea-93e7-123a7c8d3ad7,060e143d-2534-4aea-93e7-123a7c8d3ad7,human,,,none,czech,Marek Hilšer bude opět kandidovat na prezidenta,,"Marek Hilšer bude opět kandidovat na prezidentaMarek Hilšer | FOTO: foto Pavel HofmanČTK / ZprávaČeská tisková kancelářPublikováno 21. 11. 2019Senátor Marek Hilšer oznámil, že chce v roce 2023 znovu kandidovat na prezidenta. Pro kandidaturu začne sbírat podpisy občanů. V minulých volbách hlavy státu získal 455 tisíc hlasů, skončil na pátém místě a nedostal se do finálového souboje s obhajujícím Milošem Zemanem. Novinářům dnes řekl, že chce být opět občanským kandidátem. Plánuje objíždět regiony a začít se sběrem podpisů. Při minulé kandidatuře mu podpisy od občanů nestačily, získal jich 43.850, potřeba je jich 50 tisíc. Cestu do voleb mu pak otevřely podpisy 11 senátorů.„Je předběžné vykládat karty na stůl z hlediska programu,“ uvedl potom, co představil obecnou vizi své kandidatury. Lidé ale mohou podle něj usuzovat podle toho, jaké názory zastává v Senátu. „Horká kampaň teprve přijde, toto beru jako předpolí pro lidi, aby věděli, že kandiduji. Neplánuji nějakou rozsáhlou kampaň,“ uvedl.Do voleb podle Hilšera sice zbývají tři roky, má to ale za krátkou dobu, aby se potkal s co nejvíce lidmi. Na ohlášení kandidatury si vzal stejné sako jako před lety, když se jako první přihlásil do minulého hlasování o hlavě státu.Voliče chce Hilšer oslovit vizí sebevědomé republiky postavené na lidech, kteří se nebojí. „Nebojí se problémů, které přináší dnešní svět, protože je nevnímají jako hrozbu, ale jako příležitost. Nebojí se naslouchat ostatním, protože vědí, že respekt se rodí z respektu a spolupráce. Nebojí se trvat na tom, že stát a jeho instituce mají sloužit lidem, ne naopak. A nebojí se hájit svoje právo na svobodu, bez ohledu na to, jak silný je protivník,“ uvedl. Doplnil, že zkušenosti ze Senátu ho utvrdily v tom, že veřejná služba má smysl.Jako o možných uchazečích o příští prezidentské klání se v poslední době mluví například také o kandidátech z roku 2018 Jiřím Drahošovi a Pavlu Fischerovi, kandidaturu také nevyloučili bývalý předseda Vojenského výboru NATO Petr Pavel nebo předseda Českomoravské konfederace odborových svazů (ČMKOS) Josef Středula. Prezident Zeman označil za dobrého potenciálního kandidáta vedle Středuly také šéfa Hospodářské komory ČR Vladimíra Dlouhého. Sám by volil současného premiéra Andreje Babiše (ANO). Ten několikrát možnou kandidaturu odmítl.Naposledy se k případné kandidatuře přihlásil hudebník a někdejší politik Michael Kocáb. Chtěl by veřejnosti nabídnout étos a hodnoty sametové revoluce, řekl Rádiu Impuls. Do boje by šel pouze za podmínky, kdyby se země ubírala nepříznivým směrem. Na začátku roku nevyloučil kandidaturu bývalý prezident Václav Klaus. Domnívá se ale, že to je úkol pro nové generace. Naopak znovu se o prezidentský úřad nechce ucházet Michal Horáček, který se zúčastnil minulé volby.Mezi nejpopulárnější potenciální kandidáty na prezidenta patří podle průzkumu agentury STEM/MARK Babiš, moderátor a herec Marek Eben nebo senátor a kandidát z minulých prezidentských voleb Drahoš. Babiš ale zároveň s Václavem Klausem mladším (Trikolóra) patří mezi potenciální kandidáty, které nejvíce lidí volit odmítá.",0,0.019625274,0.98037475
+954bc451-b693-4724-9873-41ef31fbd3fa,954bc451-b693-4724-9873-41ef31fbd3fa,30796954-b3f8-4fd5-9f42-ea85e22d9f44,cohere-chat,greedy,no,none,german,"Emma Watson: ""Ich tat alles, um zu gefallen""","Schreiben Sie einen Nachrichtenartikel mit dem Titel ""Emma Watson: ""Ich tat alles, um zu gefallen"""".","Sieht aus, als hätte Emma Watson nichts mehr zu entdecken. Ein bisschen mehr als dreißig Jahre alt, gewichtet 105 Kilogramme und mit einer Ausbildung als Schauspielerin, die sie sich gewählt hat, weil sie es sich wünschte, ein bisschen was anderes zu sein als nur die Harry-Potter-Schicksaal-Schöne. Doch das sind Zeiten von gefühlten Entscheidungen und sich selbst findenden Lösungen längst vorbei, als sie noch in ihrer zweiten Jahr der Schule war. Sie ist jetzt ein weibliches Geschöpf, das sich wie ein Kopfsteinpflaster an alle Stellen verbreitet, um unter Umständen auch nur einen Schatten von sich zu tragen. Einzigartig und eigenwillig, ist sie ein Prinzipal, der es nicht schwer macht, das, was sie will, zu bekommen. Sie will sich nicht an etwas halten, das nicht zu ihr passt. Sie will ihre eigenen Regeln und sie will, dass ihr Leben auf ihre Art und Weise verläuft.
+
+Ihre Art und Weise ist aber auch eine Art, das sich nicht ärgert, sondern mit allen Mitteln aushalten zu können, was ihr passiert. Sie ist eine Art, das sich nicht ärgert, sondern mit allen Mitteln, um ihren Kopf zu retten. Sie ist eine Art, das sich nicht ärgert, sondern mit allen Mitteln, um ihren Schatten zu löschen. Sie ist eine Art, das sich nicht ärgert, sondern mit allen Mitteln, um ihr eigenes Gefühl zu finden. Sie ist eine Art, das sich nicht ärgert, sondern mit allen Mitteln, um zu gefallen. 
+
+Emma Watson ist eine der intelligentesten und eigenwilligsten Persönlichkeiten, die es",1,0.9759745,0.024025574
+4c2ea064-4710-4c71-be8e-f4a9dfb7b1e0,4c2ea064-4710-4c71-be8e-f4a9dfb7b1e0,4c2ea064-4710-4c71-be8e-f4a9dfb7b1e0,human,,,none,german,Fehlerbereinigung: Apple veröffentlicht iOS 9.3.1,,"Fehler, der bei vielen Nutzern zu Abstürzen beim Anklicken von Links führt wurde ausgeräumtDas Update auf iOS 9.3 bereitete so manchen Apple-Nutzern wenig Freude. Mussten sie doch bald feststellen, dass die neueste Version des Betriebssystem mit dem einen oder anderen  Bug ausgeliefert wurde. Nun bessert der Hersteller nach.
+Update
+Mit iOS 9.3.1 gibt es seit kurzem eine neue Softwareversion für iPhones und iPads. Diese behebt ein besonders nerviges Problem. Viele User hatten von Problemen beim Anklicken von Links berichtet. Die betreffenden Apps ließen sich in Folge nicht mehr nützen oder stürzten ab. Interessanterweise trat das Problem zum Teil auch bei Usern mit älteren iOS-Versionen auf.
+Vorgeschichte
+Mit der neuen Version soll dieser Bug der Vergangenheit angehören. Bereits vor einigen Tagen hatte Apple ein weiteres Problem bereinigt, durch das ältere Geräte zum Teil nicht mehr aktiviert werden konnten.
+Verfügbarkeit
+iOS 9.3.1 steht wie gewohnt über die Softwareaktualisierung von Apple zum Download bereit. (red, 1.4.2016) Nachlese
+iOS 9.3: Apple-Nutzer klagen über Abstürze beim Öffnen von Links",0,0.10983662,0.8901634
+3f81df30-2d6b-406e-81e9-b09f12a363fd,3f81df30-2d6b-406e-81e9-b09f12a363fd,22e5618a-42ef-4ba7-a230-91b18f08fa32,mpt,greedy,no,none,german,Frankreich droht Google mit Strafen im Streit um Datenlöschungen,"Es folgt ein Nachrichtenartikel mit dem Titel ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen"":","> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""
+>
+> ""Frankreich droht Google mit Strafen im Streit um Datenlöschungen""",1,0.57254106,0.42745894
+aa580a72-9405-416c-b4dd-efa7142d57d8,aa580a72-9405-416c-b4dd-efa7142d57d8,2efadf70-bfc9-42c0-842a-23c900e036fe,cohere-chat,sampling,no,none,czech,"Trenér Vrba končí v Machačkale, klub rozprodává kádr","Napiš text článku, který má nadpis ""Trenér Vrba končí v Machačkale, klub rozprodává kádr"".","Here is a possible draft of that article:
+
+Authoritative coach Vrba concluded his career in Machačka, a club that has disappointed its fans season after season.
+
+The club has not achieved any noteworthy results in the championships recently, and the management decided it was time for a change at the helm.
+
+After a thorough search, they found the right man for the job in Vrba, who has a proven track record of success in coaching.
+
+He took over the team with the goal of returning it to its former glory, and he has been working hard to implement his vision for the club.
+
+However, despite his best efforts, Vrba was unable to turn the team's performance around. The club's management became frustrated with the lack of progress and decided to make a change.
+
+ Vrba's tenure at the club came to an end, and he left with a sense of disappointment. He believes that the club has the potential to achieve great things, but it needs to make some changes to its approach in order to get there.",1,0.0013876864,0.9986123
+c73264f7-a775-4169-9457-816f8dfdb0b5,c73264f7-a775-4169-9457-816f8dfdb0b5,c73264f7-a775-4169-9457-816f8dfdb0b5,human,,,none,czech,"Nemají pro úředníky práci, tak jsou doma! Přitom berou většinu platu",,"Publikováno 18. 7. 2017placená dovolenáNemají pro úředníky práci, tak jsou doma! Přitom berou většinu platuZdroj:mediafax / Thinkstock Ilustrační fotoTéma: úředník
+Do práce nechodí, ale pobírají 80 procent platu. Taková je situace více než stovky úředníků, kteří čekají až jim stát najde nové pracovní místo, protože to jejich bylo zrušeno. Informuje o tom web iDNES.cz. Nejčastěji se to týká zaměstnanců, kteří jsou těsně před důchodem nebo je potřeba se jich ""zbavit"".
+Stát jim zrušil pracovní místo a oni teď doma čekají, jestli jim najde nějaké jiné. Někteří tak už šest měsíců pobírají většinu svého platu. Pokud se pro ně ani po půl roce vhodné místo nenajde, dostanou výpověď. A k tomu navíc tři až dvanáctiměsíční odbytné, píše iDNES.cz.
+Jedná se přitom poměrně o novinku, takovéto pracovní volno je možné dostávat až od roku 2015, kdy vstoupil v platnost služební zákon. Dnes je na takové ""čekací listině"" 108 úředníků. Tímto způsobem už ukončilo kariéru 53 úředníků. Aktuálně neobsazených míst je v současnosti 16 385 a stát by je měl zaplnit právě z řad čekajících úředníků. Jenže to se téměř neděje. Často jsou totiž čekající úředníci v jiném městě, než jsou volná místa, nebo mají jinou kvalifikaci.  Tzv. čekací listina tak funguje spíše pro starší zaměstnance, kteří mají těsně před důchodem. Je také ideálním nástrojem, jak se zbavit neposlušného zaměstnance. Pak mu totiž stát musí najít místo ve stejném oboru a stejné platové třídy, jako měl doposud. A to je především u vyšších pozic často nemožné. Takhle přišel o místo například bývalý ředitel České správy sociální zabezpečení Vilém Kahoun.
+mom TN.cz",0,0.6943892,0.3056108
+3c4559b0-ce8e-43cf-bc3f-ba0a66d1a8af,3c4559b0-ce8e-43cf-bc3f-ba0a66d1a8af,3c4559b0-ce8e-43cf-bc3f-ba0a66d1a8af,human,,,none,czech,Paralelní světy,,"Paralelní světy
+Pamatujete si ještě, proč odstoupil německý prezident, britský ministr průmyslu či německý minstr obrany? Jasně že ne, protože to byly takové prkotiny, že jsou hluboko pod rozlišovací schopnost Nečasovou vládou zoceleného našince.Plagiátorství, špatně zaplacená pokuta, přijímání výhod od
+podnikatelů? To může vést k odstoupení politika leda tak na dlouho
+demokratickou tradicí zkaženém západě, ale ne u nás, kde víme, že
+jediné, na čem skutečně záleží, je, aby nebyli komunisté ve vládě (ti
+současní, ti minulí, flexibilně překabátění, nevadí), ale jinak tam může
+být libovolný gauner nebo lempl.Proto máme ministra financí, který mluví sprostě, fackuje občany,
+vyhrožuje policistům (včetně policejního prezidenta) a předvádí
+hysterické výlevy na hranici delirického transu, to vše v situaci, kdy
+se fiskál nachází v těžké krizi, deficit veřejných financí narůstá,
+ekonomika zpomaluje a výběr daní klesá, přičemž je to ministr
+s nejsilnějším postavením ve vládě, kterého se premiér neodváží ani
+napomenout, natož aby ho odvolal.Režim u nás či na západě může být stokrát formálně stejný, přesto
+jeho praxe může být tak diametrálně odlišná, že už ani odlišnější být
+nemůže. A nejde o to, že by na západ od nás byli politici nějak
+čestnější a zodpovědnější, to je v principu nemožné, protože stejný druh
+režimu generuje stejný druh elit, jde o to, že na západě mají styl,
+dodržují dekorum a provokování občanů svojí arogancí a nedotknutelností
+nepovažují za kategorický imperativ „zodpovědné a slušné politiky“.Převzato z blogu Tribun
+0 0 hlasy",0,0.18762259,0.8123774
+701257a4-387f-4b2c-9a07-428bf83d50e1,701257a4-387f-4b2c-9a07-428bf83d50e1,701257a4-387f-4b2c-9a07-428bf83d50e1,human,,,none,german,NGOs starten Meldestelle für Verletzungen der Netzneutralität,,"Auf ""RespectMyNet.eu"" sollen Nutzer Verstöße gegen die Gleichbehandlung der Daten öffentlich machen könnenEine Reihe an nationalen wie internationalen Organisationen zum Schutz von Internetnutzern hat sich zusammengetan, um eine europäische Meldestelle für Verletzungen der Netzneutralität zu schaffen. Auf ""Respect My Net"" können Nutzer künftig publik machen, inwiefern ihre Provider die Netzneutralität beeinträchtigen. Mit dem Begriff bezeichnet man die Gleichbehandlung von einzelnen Daten, spezifische Services dürfen also nicht bevorzugt werden. Genau das erlauben aber Schlupflöcher in einer neuen EU-Verordnung.
+Initiative für Netzfreiheit dabei
+Deren Folgen werden sich erst in den kommenden Monaten zeigen, weshalb die Meldestelle nun ins Leben gerufen worden ist. ""Respekt My Net soll sicherstellen, dass die neuen Regeln so umgesetzt werden, dass sie ein offenes und wettbewerbsfähiges Internet wirksam verteidigen"", sagt Joe McNamee von European Digital Rights (edri). Neben Edri sind unter anderem auch Access Now, die Digitale Gesellschaft (Deutschland), Le Quadrature du Net (Frankreich) sowie die österreichische Initiative für Netzfreiheit mit an Bord. (red, 4.3.2016) Link
+Respect My Net 
+Nachlese
+2016: Handy-Nutzer mit Vorteilen, Internetnutzer müssen bangen  ",0,0.15502763,0.8449724
