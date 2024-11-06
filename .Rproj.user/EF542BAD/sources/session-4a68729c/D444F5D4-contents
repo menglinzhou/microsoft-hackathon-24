@@ -1,7 +1,0 @@
-.DS_Store
-.Rproj
-.Rproj.user
-.git
-src/__pycache__/
-.ipynb_checkpoints/
-.Rhistory
