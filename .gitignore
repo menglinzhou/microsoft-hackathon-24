@@ -1,9 +1,7 @@
 .DS_Store
 .Rproj.user/
 .Rhistory
-.git
+.git/
 .ipynb_checkpoints/
-data/.DS_Store
-ML_LoRA_E5/.DS_Store
 src/__pycache__/
-src/.DS_Store
+.Rproj
