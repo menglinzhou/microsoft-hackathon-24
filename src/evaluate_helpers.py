@@ -20,15 +20,17 @@ def get_predicted_labels(predictions, threshold=0.5):
         _type_: _description_
     """
     # Check if the input is an instance of PredictionResults
-    if not isinstance(predictions, PredictionResults):
+    if isinstance(predictions, PredictionResults):
+        # Extract predictions from the PredictionResults object
+        predictions = predictions.predictions['Predicted_Probs(1)']
+    elif isinstance(predictions, list):
+        pass
+    else:
         raise TypeError("Input must be a `PredictionResults` instance.")
-    # Extract predictions from the PredictionResults object
-    predictions = predictions.predictions
+    
 
-    # Convert the list of predictions to a numpy array
-    predictions = np.array(predictions)
     # Apply thresholding to get the predicted labels
-    predicted_labels = (predictions[:, 1] > threshold).astype(int)
+    predicted_labels = [1 if prob >= threshold else 0 for prob in predictions]
     return predicted_labels
 
 

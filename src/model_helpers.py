@@ -63,8 +63,12 @@ def inference_model(model, data):
     """
     if isinstance(data, ProcessedData): 
         data = data.data
+    elif isinstance(data, list):
+        data = Dataset.from_dict({"text": data})
+    elif isinstance(data, pd.DataFrame):
+        data = Dataset.from_pandas(data)
     else:
-        raise TypeError("Input must be a `ProcessedData` instance.")
+        raise TypeError("Input must be a `ProcessedData` instance or a list of strings or a pandas DataFrame.")
     
     # tokenize input data
     data = data.map(lambda x: tokenize_data(x), batched=True, desc="Tokenizing data")
@@ -82,7 +86,9 @@ def inference_model(model, data):
             logits = outputs.logits
             # Apply softmax to get probabilities
             probs = softmax(logits, dim=-1).cpu().numpy()
-            predictions.extend(probs)
+            
+            # Extract the probability of the positive class 
+            predictions.extend(probs[:, 1])  # Assuming index 1 is the positive class
             
             # Update counter and show progress every 100 entries
             entry_count += len(probs)
@@ -90,7 +96,8 @@ def inference_model(model, data):
                 print(f"Processed {entry_count} entries...")
 
     # Create an instance of PredictionResults with predictions
-    results = PredictionResults(predictions)
+    predicted_ds = Dataset.from_dict({'Predicted_Probs(1)': [prob for prob in predictions]})
+    results = PredictionResults(predicted_ds)
 
     return results
 
@@ -122,7 +129,7 @@ def save_inference_to_csv(prediction_results, data, csv_file_path):
         raise ValueError("Length of predictions must match the length of original data.")
     
     # Convert list to DataFrame
-    predictions_df = pd.DataFrame(predictions, columns=[f'Prediction_{i}' for i in range(predictions[0].shape[0])])
+    predictions_df = predictions.to_pandas()
     # Convert Dataset to DataFrame
     data_df = data.to_pandas()
     
