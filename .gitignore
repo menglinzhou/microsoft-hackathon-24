@@ -5,3 +5,4 @@
 .ipynb_checkpoints/
 src/__pycache__/
 .Rproj
+.jupyter/
