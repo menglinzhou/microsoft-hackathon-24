@@ -8,7 +8,7 @@ from collections import Counter
 from processed_data_module import ProcessedData
 from typing import Union
 
-__all__ = ["process_data", "is_processed_data", "train_test_split_unequal_class", "train_test_split_equal_class", "tokenize_data", "label_counter",
+__all__ = ["process_data", "is_processed_data", "train_test_split_unequal_class", "train_test_split_equal_class", "label_counter",
            "check_column_type", "check_column_values", "check_column_string"]
 
 
@@ -39,7 +39,7 @@ def process_data(data, text_col = "generation", label_col = "model", reduced = F
     ensure_dataset(data)
 
     if is_processed_data(data):
-        data = data.data.data
+        data = data.data
         if reduced:
             data = data.remove_columns([col for col in data.column_names if col not in ["text", "labels"]])
         return ProcessedData(data)
@@ -176,26 +176,6 @@ def train_test_split_equal_class(data, test_size=0.5, seed=42):
     else:
         return train_set, test_set
 
-
-def tokenize_data(data):
-    """Tokenize the input data for training or evaluation
-
-    Args:
-        data (_type_): dataset object
-
-    Raises:
-        e: Exception raised during tokenization
-
-    Returns:
-        _type_: tokenized data
-    """
-    try:
-        tokenizer = AutoTokenizer.from_pretrained("intfloat/e5-small")
-        return tokenizer(data["text"], max_length=512, truncation=True, padding=True, return_tensors="pt")
-    except Exception as e:
-        print("Error during tokenization:", e)
-        print("Offending examples:", data["text"])
-        raise e
 
 def label_counter(data):
     """Count the occurrences of each label"""

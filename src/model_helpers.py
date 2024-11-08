@@ -8,15 +8,35 @@ import pandas as pd
 from datasets import Dataset
 # import helper functions from data_helpers.py
 from processed_data_module import ProcessedData
-from data_helpers import tokenize_data
 from predicted_results_module import PredictionResults
 
 
-__all__ = ['custom_collate_fn', 'inference_model', 'save_inference_to_csv', 'read_inference_as_DataFrame', 'read_inference_as_Dataset'] 
+__all__ = ["tokenize_data", "custom_collate_fn", "inference_model", "save_inference_to_csv", "read_inference_as_DataFrame", "read_inference_as_Dataset"] 
 
 
 # Initialize the tokenizer and data collator outside the function to avoid re-initialization
 tokenizer = AutoTokenizer.from_pretrained("intfloat/e5-small")
+
+
+def tokenize_data(data):
+    """Tokenize the input data for training or evaluation
+
+    Args:
+        data (_type_): dataset object
+
+    Raises:
+        e: Exception raised during tokenization
+
+    Returns:
+        _type_: tokenized data
+    """
+    try:
+        tokenizer = AutoTokenizer.from_pretrained("intfloat/e5-small")
+        return tokenizer(data["text"], max_length=512, truncation=True, padding=True, return_tensors="pt")
+    except Exception as e:
+        print("Error during tokenization:", e)
+        print("Offending examples:", data["text"])
+        raise e
 
 
 def custom_collate_fn(features):
@@ -48,12 +68,13 @@ def custom_collate_fn(features):
         return {k: torch.tensor(v) for k, v in batch.items()}
 
 
-def inference_model(model, data):
+def inference_model(model, data, nthreads = 4):
     """Inference function to get predicted probabilites for each label in the dataset
 
     Args:
         model: Pretrained or fined-tuned model
         data: ProcessedData instance
+        nthreads (int): Number of threads to use for PyTorch
 
     Raises:
         TypeError: Input must be a `ProcessedData` instance
@@ -70,6 +91,9 @@ def inference_model(model, data):
     else:
         raise TypeError("Input must be a `ProcessedData` instance or a list of strings or a pandas DataFrame.")
     
+    # Set the number of threads for PyTorch
+    torch.set_num_threads(nthreads)
+
     # tokenize input data
     data = data.map(lambda x: tokenize_data(x), batched=True, desc="Tokenizing data")
     # load batches of tokenized data
