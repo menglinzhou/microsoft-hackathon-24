@@ -102,6 +102,8 @@ print(get_predicted_labels(prediction, 0.85))
 
 ## RAID benchmark test set evaluation
 
+Check out the [leaderboard](https://raid-bench.xyz/leaderboard)!
+
 On the RAID test set as a whole (aggregated across all generation models, domains, decoding strategies, repetition penalties), the results as as follows.
 
 Without adversarial attacks, `e5-small-lora` achieved an accuracy of **93.9%**. 
