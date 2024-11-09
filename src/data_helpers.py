@@ -2,7 +2,6 @@
 
 import datasets
 from datasets import Dataset, concatenate_datasets
-from transformers import AutoTokenizer
 import pandas as pd
 from collections import Counter
 from processed_data_module import ProcessedData

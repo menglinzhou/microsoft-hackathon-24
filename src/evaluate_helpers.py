@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix, roc_auc_score
 # import helper functions from data_helpers.py
 from data_helpers import is_processed_data
-from processed_data_module import ProcessedData
 from predicted_results_module import PredictionResults
 
 __all__ = ["get_predicted_labels", "evaluate_model"]
