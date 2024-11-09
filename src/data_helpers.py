@@ -2,13 +2,12 @@
 
 import datasets
 from datasets import Dataset, concatenate_datasets
-from transformers import AutoTokenizer
 import pandas as pd
 from collections import Counter
 from processed_data_module import ProcessedData
 from typing import Union
 
-__all__ = ["process_data", "is_processed_data", "train_test_split", "train_test_split_equal_size", "tokenize_data", "label_counter",
+__all__ = ["process_data", "is_processed_data", "train_test_split_unequal_class", "train_test_split_equal_class", "label_counter",
            "check_column_type", "check_column_values", "check_column_string"]
 
 
@@ -23,9 +22,7 @@ def process_data(data, text_col = "generation", label_col = "model", reduced = F
     Returns:
         _type_: formalized data
     """
-    if is_processed_data(data):
-        data = data.data
-
+    
     # Ensure the input data is in a proper format
     def ensure_dataset(df):
         # Check if the object is already a datasets.Dataset
@@ -34,9 +31,17 @@ def process_data(data, text_col = "generation", label_col = "model", reduced = F
         # Check if the object is a pandas DataFrame
         elif isinstance(df, pd.DataFrame):
             return Dataset.from_pandas(df)  # Convert DataFrame to Dataset
+        elif is_processed_data(data): 
+            pass
         else:
             raise TypeError("Input must be a pandas DataFrame or a datasets.Dataset object.")
     ensure_dataset(data)
+
+    if is_processed_data(data):
+        data = data.data
+        if reduced:
+            data = data.remove_columns([col for col in data.column_names if col not in ["text", "labels"]])
+        return ProcessedData(data)
 
     # Add the text and labels columns for training
     if text_col != "text":
@@ -81,7 +86,7 @@ def is_processed_data(data) -> bool:
     return isinstance(data, ProcessedData)
 
 
-def train_test_split(data, test_size=0.2, seed=42):
+def train_test_split_unequal_class(data, test_size=0.2, seed=42):
     """Split the dataset into train and test sets.
 
     Args:
@@ -92,7 +97,7 @@ def train_test_split(data, test_size=0.2, seed=42):
         (ProcessedData, ProcessedData): Train and test sets as ProcessedData instances.
     """
     # Ensure `data` is a Dataset or ProcessedData instance with Dataset data
-    if isinstance(data, ProcessedData):
+    if is_processed_data(data):
         data = data.data
     elif isinstance(data, pd.DataFrame):
         data = Dataset.from_pandas(data)
@@ -116,7 +121,7 @@ def train_test_split(data, test_size=0.2, seed=42):
         raise ValueError("Unexpected format for split data. Expected a dictionary with keys 'train' and 'test'.")
 
 
-def train_test_split_equal_size(data, test_size=0.5, seed=42):
+def train_test_split_equal_class(data, test_size=0.5, seed=42):
     """Split the dataset into train and test sets with equal counts of labels 0 and 1.
 
     Args:
@@ -170,26 +175,6 @@ def train_test_split_equal_size(data, test_size=0.5, seed=42):
     else:
         return train_set, test_set
 
-
-def tokenize_data(data):
-    """Tokenize the input data for training or evaluation
-
-    Args:
-        data (_type_): dataset object
-
-    Raises:
-        e: Exception raised during tokenization
-
-    Returns:
-        _type_: tokenized data
-    """
-    try:
-        tokenizer = AutoTokenizer.from_pretrained("intfloat/e5-small")
-        return tokenizer(data["text"], max_length=512, truncation=True, padding=True, return_tensors="pt")
-    except Exception as e:
-        print("Error during tokenization:", e)
-        print("Offending examples:", data["text"])
-        raise e
 
 def label_counter(data):
     """Count the occurrences of each label"""
