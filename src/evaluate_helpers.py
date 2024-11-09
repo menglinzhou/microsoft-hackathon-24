@@ -68,7 +68,7 @@ def evaluate_model(predicted_prob, true_label, threshold = 0.5, print_metrics = 
     auc_score = roc_auc_score(true_label, predicted_prob)
 
     # Get the predicted labels
-    predicted_label = get_predicted_labels(predicted_prob, threshold)
+    predicted_label = get_predicted_labels(predicted_prob, threshold = 0.85)
 
     accuracy = accuracy_score(true_label, predicted_label)
     precision = precision_score(true_label, predicted_label)
