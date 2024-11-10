@@ -1,4 +1,4 @@
-# Our LoRA Fine-Tuned AI-generated Detector
+# Our LoRA Fine-Tuned AI-generated Text Detector
 
 This is an `e5-small` model fine-tuned with LoRA for sequence classification tasks. It is optimized to classify text into AI-generated or human-written with high accuracy.
 
